@@ -32,10 +32,11 @@ def writeSerialData(ser, data):
     ser.write(encodedData)                #transmit data serially  
 
 
-root = tk.Tk()
+root = tk.Tk()                               #get screen dimensions
 width = root.winfo_screenwidth()
-height = root.winfo_screenheight()
+height = root.winfo_screenheight()         
 root.withdraw()
+
 
 testControlFrame =      [
                          [sg.Button("Start Test", expand_x=True, expand_y=True)],
@@ -138,6 +139,7 @@ while True:
         window.Close()
     elif event == "Start Test":
         writeSerialData(serialConnection, " \r")
+    
 
 
         
