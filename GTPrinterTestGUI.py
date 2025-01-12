@@ -66,70 +66,112 @@ try:
 except:
     print("Failed to open serial connection, insert the USB to serial cable into the USB port of this Raspberry Pi and try to execute this script again")
     sg.popup('Failed to open serial connection, insert the USB to serial cable into the USB port of this Raspberry Pi and try to execute this script again', no_titlebar=True)
-    exit()
+    #exit()
 
 testCount = 1
 
 while True:
     #echoSerialData(serialConnection)
-    sdEncoded = readSerialDataByLine(serialConnection)
+    try:
+        sdEncoded = readSerialDataByLine(serialConnection)
+    except:
+        sdEncoded = ""
     
     try:
         sdDecoded = sdEncoded.decode("utf-8")                                       #decode
     except:
-        sg.cprint("Could not decode", key="resultsTextbox")                         #could not decode
-        sg.cprint(sdEncoded, key="resultsTextbox")
+        #sg.cprint("Could not decode", key="resultsTextbox")                         #could not decode
+        #sg.cprint(sdEncoded, key="resultsTextbox")
         sdDecoded = ""
         
     if sdDecoded != "":                                                             #if a line has been read
         if sdDecoded == "ALL TESTS PASSED\n":                                       #all tests passed     
             sg.cprint(sdDecoded, key="resultsTextbox", colors="green on white")
+            print("ALL TESTS PASSED IN RESULTS BOX")
             
         #elif sdDecoded == "   \n":                                                 
         #    sg.cprint("", key="resultsTextbox")
 
         elif sdDecoded == "PRINTHEAD TYPE TEST PASS\n":                             #printhead type test PASS                     
             sg.cprint(sdDecoded, key="resultsTextbox", colors="green on white")
+            print("PRINTHEAD TYPE TEST PASSED IN RESULTS BOX")
 
         elif sdDecoded == "PRINTHEAD TYPE TEST FAIL\n":                             #printhead type test FAIL                      
             sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("PRINTHEAD TYPE TEST FAILED IN RESULTS BOX")
 
         elif sdDecoded == "PRINTHEAD TEMPERATURE TEST PASS\n":                      #printhead temp test PASS                     
             sg.cprint(sdDecoded, key="resultsTextbox", colors="green on white")
+            print("PRINTHEAD TEMP TEST PASS IN RESULTS BOX")
 
         elif sdDecoded == "PRINTHEAD TEMPERATURE TEST FAIL\n":                      #printhead temp test FAIL                      
             sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("PRINTHEAD TEMP TEST FAIL IN RESULTS BOX")
 
-        elif sdDecoded[0:10] == "TUTestVal -":                                      #getTakeUpTorque()          
+        elif sdDecoded[0:11] == "TUTestVal -":                                      #getTakeUpTorque()          
             sg.cprint(sdDecoded, key="resultsTextbox")
+            print("TUTESTVAL IN RESULTS BOX")
 
-        elif sdDecoded[0:10] == "SHOOTTestVa":                                      #getShootAverage()         
+        elif sdDecoded[0:11] == "SHOOTTestVa":                                      #getShootAverage()         
             sg.cprint(sdDecoded, key="resultsTextbox")
+            print("SHOOTTESTVAL IN RESULTS BOX")
 
-        elif sdDecoded[0:10] == "LOWSTOCKTes":                                      #getLowStockSensor()       
+        elif sdDecoded[0:11] == "LOWSTOCKTes":                                      #getLowStockSensor()       
             sg.cprint(sdDecoded, key="resultsTextbox")
+            print("LOWSTOCKTESTVAL IN RESULTS BOX")
 
-        elif sdDecoded[0:14] == "PRINTHEADTemp":                                    #getPrintheadTemperatureInCelsius()     
+        elif sdDecoded[0:13] == "PRINTHEADTemp":                                    #getPrintheadTemperatureInCelsius()     
             sg.cprint(sdDecoded, key="resultsTextbox")
+            print("PRINTHEAD TEMP VAL IN RESULTS BOX")
 
-        elif sdDecoded[0:14] == "PRINTHEADType":                                    #getPrintHeadType()     8 == 80mm
+        elif sdDecoded[0:13] == "PRINTHEADType":                                    #getPrintHeadType()     8 == 80mm
             sg.cprint(sdDecoded, key="resultsTextbox")
+            print("PRINTHEAD TYPE IN RESULTS BOX")
 
-        elif sdDecoded == "STUCK TU HUB TEST - TEST PASS\n":                        #stuck hub PASS                      
+        elif sdDecoded == "STUCK TU HUB TEST TEST PASS\n":                           #stuck hub PASS                      
             sg.cprint(sdDecoded, key="resultsTextbox", colors="green on white")
+            print("STUCK HUB TEST PASSED IN RESULTS BOX")
 
-        elif sdDecoded == "STUCK TU HUB TEST - TEST FAIL\n":                        #stuck hub FAIL                      
+        elif sdDecoded == "STUCK TU HUB TEST TEST FAIL\n":                           #stuck hub FAIL                      
             sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("STUCK HUB TEST FAILED IN RESULTS BOX")
+            
+        elif sdDecoded == "A TEST HAS FAILED\n":                                     #test FAIL                    
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("A TEST HAS FAILED")    
+            
+        elif sdDecoded == "TU SENSOR FAILED A TEST\n":                                            
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("")  
+            
+        elif sdDecoded == "SHOOT SENSOR FAILED A TEST\n":                                            
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("")  
+            
+        elif sdDecoded == "LOWSTOCK SENSOR FAILED A TEST\n":                                            
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("")
+            
+        elif sdDecoded == "PRINTHEAD THERMISTOR TEST FAILED\n":                                            
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("")
+            
+        elif sdDecoded == "PRINTHEAD TYPE DETECTION TEST FAILED\n":                                            
+            sg.cprint(sdDecoded, key="resultsTextbox", colors="red on white")
+            print("")  
 
         elif sdDecoded == "!!!\n":                                                  #new test started, clear screen'
             for i in range(100):
                 sg.cprint("", key="resultsTextbox")
+            sg.cprint("TEST NUMBER " + str(testCount), key="resultsTextbox")
+            testCount += 1
+            #print("CLEAR SCREEN IN RESULTS BOX")    
         
-        elif sdDecoded == "\n":                                                     #new line -- why did i put this here?
-            sg.cprint("", key="resultsTextbox")
-        
-        else:
+        elif sdDecoded == "\n":                                                     #new line in instructions
             sg.cprint(sdDecoded, key="instructionsTextbox")
+        
+        else:                                                                       #print to instructions
+            sg.cprint(sdDecoded, key="instructionsTextbox")                         
    
     event, values = window.read(timeout=(10))
     if event == sg.WIN_CLOSED or event == "Exit":
