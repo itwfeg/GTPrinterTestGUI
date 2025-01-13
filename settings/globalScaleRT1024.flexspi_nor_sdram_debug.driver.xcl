@@ -1,0 +1,23 @@
+"--endian=little" 
+
+"--cpu=Cortex-M7" 
+
+"--fpu=VFPv5_D16" 
+
+"-p" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\CONFIG\debugger\NXP\MIMXRT1024xxx5A.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=MIMXRT1024xxx5A" 
+
+"--pemicro_show_settings_dialog" 
+
+"--drv_communication_log=C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\cspycomm.log" 
+
+
+
+

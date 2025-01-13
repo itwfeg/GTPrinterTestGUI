@@ -1,0 +1,9 @@
+
+## start usbmon by (1u all bus 1 traffic):
+cat /sys/kernel/debug/usb/usbmon/1u > /tmp/1.mon.out
+
+# when you want to look at the traffic
+cntrl-c 
+
+
+

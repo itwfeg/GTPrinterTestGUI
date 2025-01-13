@@ -1,0 +1,7 @@
+##	Need to investigate why node 1 will not correctly update wrap box timmings. Constant checksum mismatch. All other nodes correct. 5/23/2023
+## 	Make sure node4 is able to update it's model number. 0x318 SLAVE_WRITE_MODEL_VERSION 5/23/2023
+##	Need to look into signal bounce on interlocks causing e-stop from master during bootup 5/23/2023
+##	Need to look into spi initialization failure during power up -- intermittant 5/23/2023
+
+
+476107

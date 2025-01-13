@@ -1,0 +1,17 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armPEMICRO.dll" 
+
+"C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\flexspi_nor_sdram_debug\Exe\globalScaleRT1024.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/debugger/NXP/iMXRT.dmac" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/debugger/NXP/iMXRT1020_Trace.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.1_2\arm/config/flashloader/NXP/FlashIMXRT1024_SIP.board" 
+
+
+
+

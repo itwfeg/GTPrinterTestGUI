@@ -1,0 +1,48 @@
+Live logging to 'D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\LogFile1.log' enabled.
+Thu Jan 12, 2023 13:17:05: Breakpoint hit: Code @ unitTests.c:108.5, type: default (auto) 
+Thu Jan 12, 2023 13:17:25: Breakpoint hit: Code @ unitTests.c:108.5, type: default (auto) 
+Thu Jan 12, 2023 13:17:43: UsageFault: An instruction executed with an invalid EPSR.T or EPSR.IT field.
+Thu Jan 12, 2023 13:17:43: UsageFault: The processor has attempted to execute an undefined instruction.
+Thu Jan 12, 2023 13:17:43: BusFault: A bus fault has occurred on exception entry.
+Thu Jan 12, 2023 13:17:43: BusFault: A precise (synchronous) data access error has occurred.
+Thu Jan 12, 2023 13:17:43: Possible BusFault location: 0x0003D203.
+Thu Jan 12, 2023 13:17:43: MemManage: The processor attempted a load or store at a location that does not permit the operation.
+Thu Jan 12, 2023 13:17:43: MemManage: The processor attempted an instruction fetch from a location that does not permit execution.
+Thu Jan 12, 2023 13:17:43: HardFault: A BusFault has occurred on a vector table read during exception processing.
+Thu Jan 12, 2023 13:17:43: The stack pointer for stack 'CSTACK' (currently 0x2000'72b0) is outside the stack range (0x2000'fc00 to 0x2000'ffff)
+Thu Jan 12, 2023 13:17:51: UsageFault: An instruction executed with an invalid EPSR.T or EPSR.IT field.
+Thu Jan 12, 2023 13:17:51: UsageFault: The processor has attempted to execute an undefined instruction.
+Thu Jan 12, 2023 13:17:51: BusFault: A bus fault has occurred on exception entry.
+Thu Jan 12, 2023 13:17:51: BusFault: A precise (synchronous) data access error has occurred.
+Thu Jan 12, 2023 13:17:51: Possible BusFault location: 0x0003D203.
+Thu Jan 12, 2023 13:17:51: MemManage: The processor attempted a load or store at a location that does not permit the operation.
+Thu Jan 12, 2023 13:17:51: MemManage: The processor attempted an instruction fetch from a location that does not permit execution.
+Thu Jan 12, 2023 13:17:51: HardFault: A BusFault has occurred on a vector table read during exception processing.
+Thu Jan 12, 2023 13:17:51: The stack pointer for stack 'CSTACK' (currently 0x2000'72b0) is outside the stack range (0x2000'fc00 to 0x2000'ffff)
+Thu Jan 12, 2023 13:17:52: UsageFault: An instruction executed with an invalid EPSR.T or EPSR.IT field.
+Thu Jan 12, 2023 13:17:52: UsageFault: The processor has attempted to execute an undefined instruction.
+Thu Jan 12, 2023 13:17:52: BusFault: A bus fault has occurred on exception entry.
+Thu Jan 12, 2023 13:17:52: BusFault: A precise (synchronous) data access error has occurred.
+Thu Jan 12, 2023 13:17:52: Possible BusFault location: 0x0003D203.
+Thu Jan 12, 2023 13:17:52: MemManage: The processor attempted a load or store at a location that does not permit the operation.
+Thu Jan 12, 2023 13:17:52: MemManage: The processor attempted an instruction fetch from a location that does not permit execution.
+Thu Jan 12, 2023 13:17:52: HardFault: A BusFault has occurred on a vector table read during exception processing.
+Thu Jan 12, 2023 13:17:52: The stack pointer for stack 'CSTACK' (currently 0x2000'72b0) is outside the stack range (0x2000'fc00 to 0x2000'ffff)
+Thu Jan 12, 2023 13:17:54: UsageFault: An instruction executed with an invalid EPSR.T or EPSR.IT field.
+Thu Jan 12, 2023 13:17:54: UsageFault: The processor has attempted to execute an undefined instruction.
+Thu Jan 12, 2023 13:17:54: BusFault: A bus fault has occurred on exception entry.
+Thu Jan 12, 2023 13:17:54: BusFault: A precise (synchronous) data access error has occurred.
+Thu Jan 12, 2023 13:17:54: Possible BusFault location: 0x0003D203.
+Thu Jan 12, 2023 13:17:54: MemManage: The processor attempted a load or store at a location that does not permit the operation.
+Thu Jan 12, 2023 13:17:54: MemManage: The processor attempted an instruction fetch from a location that does not permit execution.
+Thu Jan 12, 2023 13:17:54: HardFault: A BusFault has occurred on a vector table read during exception processing.
+Thu Jan 12, 2023 13:17:54: The stack pointer for stack 'CSTACK' (currently 0x2000'72b0) is outside the stack range (0x2000'fc00 to 0x2000'ffff)
+Thu Jan 12, 2023 13:17:55: UsageFault: An instruction executed with an invalid EPSR.T or EPSR.IT field.
+Thu Jan 12, 2023 13:17:55: UsageFault: The processor has attempted to execute an undefined instruction.
+Thu Jan 12, 2023 13:17:55: BusFault: A bus fault has occurred on exception entry.
+Thu Jan 12, 2023 13:17:55: BusFault: A precise (synchronous) data access error has occurred.
+Thu Jan 12, 2023 13:17:55: Possible BusFault location: 0x0003D203.
+Thu Jan 12, 2023 13:17:55: MemManage: The processor attempted a load or store at a location that does not permit the operation.
+Thu Jan 12, 2023 13:17:55: MemManage: The processor attempted an instruction fetch from a location that does not permit execution.
+Thu Jan 12, 2023 13:17:55: HardFault: A BusFault has occurred on a vector table read during exception processing.
+Thu Jan 12, 2023 13:17:55: The stack pointer for stack 'CSTACK' (currently 0x2000'72b0) is outside the stack range (0x2000'fc00 to 0x2000'ffff)

@@ -1,0 +1,2467 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  12/Jan/2023  08:40:42
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Exe\globalScaleRT1024.out
+#    Map file     =
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\List\globalScaleRT1024.map
+#    Command line =
+#        -f
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Exe\globalScaleRT1024.out.rsp
+#        (D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\averyCutter.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\averyWeigher.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board\board.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\boxcarFilter.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\boxcarFilterF.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\cat3Audit.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board\clock_config.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\commandTable.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\croutine.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\cs5530.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board\dcd.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\dotWearTask.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\drawingPrimitives.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\dvr8818.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\edgeDetection.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\event_groups.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\xip\evkmimxrt1024_flexspi_nor_config.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\filter.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\firFilter.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common\uart\fsl_adapter_lpuart.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_adc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_adc_etc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_aipstz.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_aoi.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\fsl_assert.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_bee.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_cache.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_clock.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_cmp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_common.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_common_arm.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\exceptions\fsl_component_exception_handling.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\list\fsl_component_generic_list.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common\fsl_component_serial_manager.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common\fsl_component_serial_port_uart.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_dcdc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_dcp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\fsl_debug_console.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_dmamux.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_enc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_enet.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_ewm.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexcan.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_camera.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_camera_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_i2c_master.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_i2s.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_i2s_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_mculcd.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_mculcd_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_spi.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_spi_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_uart.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexio_uart_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexram.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexram_allocate.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexspi.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_flexspi_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\xip\fsl_flexspi_nor_boot.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_gpc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_gpio.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_gpt.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_kpp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpi2c.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpi2c_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpi2c_freertos.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpspi.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpspi_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpspi_freertos.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpuart.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpuart_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_lpuart_freertos.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_ocotp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\osa\fsl_os_abstraction_free_rtos.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_pit.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_pmu.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_pwm.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_qtmr.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_romapi.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_rtwdog.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_sai.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_sai_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_semc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_snvs_hp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_snvs_lp.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_spdif.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_spdif_edma.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_src.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\fsl_str.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_tempmon.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_trng.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_usdhc.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_wdog.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_xbara.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers\fsl_xbarb.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\globalPrinterTask.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\globalScale.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\MemMang\heap_4.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\idleTask.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\list.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\lp5521.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board\pin_mux.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\port.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portasm.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\printEngine.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer\printHead.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\queue.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\queueManager.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\sca3300.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\sensors.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\serialFlash.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\startup\startup_MIMXRT1024.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\stream_buffer.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\MIMXRT1024\device\system_MIMXRT1024.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\systemTimer.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\tasks.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\testLabel.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\threadManager.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\timers.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\translator.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\unitTests.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\usb_device_ch9.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\class\usb_device_class.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\dci\usb_device_dci.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\source\usb_device_descriptor.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\ehci\usb_device_ehci.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\source\usb_device_printer.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\phy\usb_phy.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\usbTask.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher\varGainFilter.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\vendor.o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system\w25x10cl.o
+#        --no_out_extension -o
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Exe\globalScaleRT1024.out
+#        --redirect _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb
+#        --map
+#        D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\List\globalScaleRT1024.map
+#        --config
+#        D:\peripherals\service-scale\GlobalScaleRT1024-FrameWork-USB\MIMXRT1024\linker\MIMXRT1024xxxxx_flexspi_nor.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M7 --fpu=VFPv5_d16)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Lp011]: section placement failed
+            unable to allocate space for sections/blocks with a total estimated
+                      minimum size of 0x2'aa3c bytes (max align 0x4) in
+                      <[0x2000'0000-0x2000'fbff]> (total uncommitted space
+                      0xfc00).
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x6000'2000 { ro section .intvec };
+"P1":  place in [from 0x6000'2000 to 0x6000'23ff] |
+                [from 0x6000'2400 to 0x603f'ffff] { ro };
+define block RW { rw };
+"P2":  place in [from 0x2000'0000 to 0x2000'fbff] { block RW };
+define block ZI { zi };
+"P3":  place in [from 0x2000'0000 to 0x2000'fbff] { block ZI };
+define block NCACHE_VAR { section NonCacheable, section NonCacheable.init };
+"P5":  place in [from 0x2000'0000 to 0x2000'fbff] { block NCACHE_VAR };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x2000'fc00 to 0x2000'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw, section CodeQuickAccess };
+
+No sections matched the following patterns:
+
+  ro section .boot_hdr.boot_data  in "A3"
+  ro section .boot_hdr.dcd_data   in "A4"
+  section .boot_hdr.conf          in "A1"
+  section .boot_hdr.ivt           in "A2"
+  section .textrw                 in "P7-P8"
+  section CodeQuickAccess         in block QACCESS_CODE
+  section NonCacheable            in block NCACHE_VAR
+  section NonCacheable.init       in block NCACHE_VAR
+
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"P6":                                         0x400
+  CSTACK                      0x2000'fc00     0x400  <Block>
+    CSTACK           uninit   0x2000'fc00     0x400  <Block tail>
+                            - 0x2001'0000     0x400
+
+"A0":                                         0x400
+  .intvec            ro code  0x6000'2000     0x400  startup_MIMXRT1024.o [22]
+                            - 0x6000'2400     0x400
+
+"P1":                                      0x1'3f88
+  .text              ro code  0x6000'2400    0x257c  printEngine.o [12]
+  .text              ro code  0x6000'497c      0x18  fsl_assert.o [23]
+  .text              ro code  0x6000'4994     0x1e0  fsl_gpio.o [7]
+  .text              ro code  0x6000'4b74     0x7b0  fsl_clock.o [7]
+  .text              ro code  0x6000'5324     0xed8  fsl_lpspi.o [7]
+  .text              ro code  0x6000'61fc     0x19c  fsl_debug_console.o [23]
+  .text              ro code  0x6000'6398     0x228  fsl_gpt.o [7]
+  .text              ro code  0x6000'65c0     0x844  fsl_pwm.o [7]
+  .text              ro code  0x6000'6e04      0x14  dotWearTask.o [12]
+  .text              ro code  0x6000'6e18     0xb2c  tasks.o [8]
+  .text              ro code  0x6000'7944      0xb4  dvr8818.o [12]
+  .text              ro code  0x6000'79f8     0x63c  translator.o [13]
+  .text              ro code  0x6000'8034      0xa6  ABImemcpy.o [29]
+  .text              ro code  0x6000'80da      0x2a  copy_init3.o [29]
+  .text              ro code  0x6000'8104     0x278  sensors.o [13]
+  .text              ro code  0x6000'837c     0x17e  threadManager.o [13]
+  .rodata            const    0x6000'84fa       0x2  clock_config.o [3]
+  .text              ro code  0x6000'84fc     0x4a4  printHead.o [12]
+  .text              ro code  0x6000'89a0     0xa22  queue.o [8]
+  .text              ro code  0x6000'93c2       0x2  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6000'93c4     0x2fa  commandTable.o [12]
+  .text              ro code  0x6000'96be       0x8  abs.o [27]
+  VENDOR_HW_MAJOR    const    0x6000'96c6       0x1  vendor.o [13]
+  VENDOR_HW_MINOR    const    0x6000'96c7       0x1  vendor.o [13]
+  .text              ro code  0x6000'96c8      0x66  ABImemset.o [29]
+  VENDOR_WSW_ENG     const    0x6000'972e       0x1  vendor.o [13]
+  VENDOR_WSW_MAJOR   const    0x6000'972f       0x1  vendor.o [13]
+  .text              ro code  0x6000'9730      0x1c  averyCutter.o [12]
+  .text              ro code  0x6000'974c     0x274  I64DivMod.o [29]
+  .text              ro code  0x6000'99c0     0x102  fsl_component_serial_manager.o [24]
+  VENDOR_WSW_MINOR   const    0x6000'9ac2       0x1  vendor.o [13]
+  .text              ro code  0x6000'9ac4     0x998  fsl_str.o [23]
+  .text              ro code  0x6000'a45c     0x298  heap_4.o [10]
+  .text              ro code  0x6000'a6f4      0x98  list.o [8]
+  .text              ro code  0x6000'a78c     0x224  port.o [9]
+  .text              ro code  0x6000'a9b0     0x50c  timers.o [8]
+  .text              ro code  0x6000'aebc     0x158  fsl_adc_etc.o [7]
+  .text              ro code  0x6000'b014     0x1c0  queueManager.o [13]
+  .text              ro code  0x6000'b1d4      0xf4  systemTimer.o [13]
+  .text              ro code  0x6000'b2c8     0xc34  w25x10cl.o [13]
+  .text              ro code  0x6000'befc     0x602  averyWeigher.o [21]
+  .text              ro code  0x6000'c500       0x2  I64DivZer.o [29]
+  .text              ro code  0x6000'c502      0x30  fsl_component_serial_port_uart.o [24]
+  .text              ro code  0x6000'c534      0x9e  modf.o [28]
+  .text              ro code  0x6000'c5d4     0x4e8  pow64.o [28]
+  .text              ro code  0x6000'cabc      0x66  DblToS64.o [28]
+  .text              ro code  0x6000'cb24      0x54  S64ToDbl.o [28]
+  .text              ro code  0x6000'cb78      0x36  strlen.o [29]
+  .text              ro code  0x6000'cbb0      0x34  port.o [9]
+  CODE               ro code  0x6000'cbe4      0xb0  portasm.o [9]
+  .text              ro code  0x6000'cc94     0x680  cs5530.o [13]
+  .text              ro code  0x6000'd314     0x594  cat3Audit.o [21]
+  .text              ro code  0x6000'd8a8     0x122  serialFlash.o [13]
+  .text              ro code  0x6000'd9cc      0x6c  vendor.o [13]
+  .text              ro code  0x6000'da38      0x4c  boxcarFilter.o [21]
+  .text              ro code  0x6000'da84     0x18c  fsl_adapter_lpuart.o [25]
+  .text              ro code  0x6000'dc10      0x24  errno.o [27]
+  .text              ro code  0x6000'dc34      0x7c  frexp.o [28]
+  .text              ro code  0x6000'dcb0     0x278  iar_Exp64.o [28]
+  .text              ro code  0x6000'df28      0x9c  sca3300.o [13]
+  .text              ro code  0x6000'dfc4     0x48c  fsl_lpuart.o [7]
+  .text              ro code  0x6000'e450       0x4  tp_nothreads.o [27]
+  .text              ro code  0x6000'e454      0xf0  ldexp.o [28]
+  .text              ro code  0x6000'e544    0x128c  pin_mux.o [3]
+  .text              ro code  0x6000'f7d0     0x728  clock_config.o [3]
+  .text              ro code  0x6000'fef8     0x596  usb_device_ehci.o [18]
+  .text              ro code  0x6001'0490     0x14c  usb_device_dci.o [17]
+  .text              ro code  0x6001'05dc     0x48c  fsl_component_exception_handling.o [4]
+  .text              ro code  0x6001'0a68     0x474  fsl_edma.o [7]
+  .rodata            const    0x6001'0edc      0x7c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'0f58     0x420  pow64.o [28]
+  .text              ro code  0x6001'1378     0x360  board.o [3]
+  .rodata            const    0x6001'16d8     0x1a0  fsl_component_exception_handling.o [4]
+  .text              ro code  0x6001'1878     0x158  system_MIMXRT1024.o [2]
+  .text              ro code  0x6001'19d0       0x2  system_MIMXRT1024.o [2]
+  .text              ro code  0x6001'19d4     0x148  fsl_sai.o [7]
+  .text              ro code  0x6001'1b1c     0x130  fsl_enet.o [7]
+  .text              ro code  0x6001'1c4c      0x94  fsl_lpi2c.o [7]
+  .rodata            const    0x6001'1ce0      0x80  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'1d60      0x80  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'1de0      0x74  fsl_adapter_lpuart.o [25]
+  .text              ro code  0x6001'1e54      0x70  fsl_flexcan.o [7]
+  .rodata            const    0x6001'1ec4      0x64  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'1f28      0x60  clock_config.o [3]
+  .rodata            const    0x6001'1f88      0x60  fsl_adc_etc.o [7]
+  .rodata            const    0x6001'1fe8      0x60  fsl_clock.o [7]
+  .rodata            const    0x6001'2048      0x60  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'20a8      0x60  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2108      0x60  fsl_flexcan.o [7]
+  .rodata            const    0x6001'2168      0x60  fsl_gpio.o [7]
+  .rodata            const    0x6001'21c8      0x60  fsl_gpt.o [7]
+  .rodata            const    0x6001'2228      0x60  fsl_lpspi.o [7]
+  .rodata            const    0x6001'2288      0x60  fsl_lpspi.o [7]
+  .rodata            const    0x6001'22e8      0x60  fsl_lpuart.o [7]
+  .rodata            const    0x6001'2348      0x60  fsl_lpuart.o [7]
+  .rodata            const    0x6001'23a8      0x60  fsl_pwm.o [7]
+  .rodata            const    0x6001'2408      0x60  pin_mux.o [3]
+  .rodata            const    0x6001'2468      0x60  w25x10cl.o [13]
+  .rodata            const    0x6001'24c8      0x5c  cat3Audit.o [21]
+  .rodata            const    0x6001'2524      0x5c  cat3Audit.o [21]
+  .rodata            const    0x6001'2580      0x5c  cs5530.o [13]
+  .rodata            const    0x6001'25dc      0x5c  fsl_edma.o [7]
+  .rodata            const    0x6001'2638      0x5c  fsl_enet.o [7]
+  .rodata            const    0x6001'2694      0x5c  fsl_gpio.o [7]
+  .rodata            const    0x6001'26f0      0x5c  fsl_gpt.o [7]
+  .rodata            const    0x6001'274c      0x5c  fsl_gpt.o [7]
+  .rodata            const    0x6001'27a8      0x5c  fsl_pwm.o [7]
+  .rodata            const    0x6001'2804      0x5c  fsl_sai.o [7]
+  .rodata            const    0x6001'2860      0x5c  printEngine.o [12]
+  .rodata            const    0x6001'28bc      0x5c  printEngine.o [12]
+  .rodata            const    0x6001'2918      0x5c  sensors.o [13]
+  .rodata            const    0x6001'2974      0x58  board.o [3]
+  .text              ro code  0x6001'29cc      0x58  fsl_flexio.o [7]
+  .rodata            const    0x6001'2a24      0x54  cat3Audit.o [21]
+  .rodata            const    0x6001'2a78      0x54  cat3Audit.o [21]
+  .rodata            const    0x6001'2acc      0x54  cat3Audit.o [21]
+  .rodata            const    0x6001'2b20      0x54  printEngine.o [12]
+  .rodata            const    0x6001'2b74      0x54  printEngine.o [12]
+  .rodata            const    0x6001'2bc8      0x50  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2c18      0x50  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2c68      0x50  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2cb8      0x50  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2d08      0x50  queueManager.o [13]
+  .rodata            const    0x6001'2d58      0x4c  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'2da4      0x4c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2df0      0x4c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2e3c      0x4c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2e88      0x4c  queueManager.o [13]
+  .rodata            const    0x6001'2ed4      0x4c  queueManager.o [13]
+  .rodata            const    0x6001'2f20      0x48  averyWeigher.o [21]
+  .rodata            const    0x6001'2f68      0x48  cs5530.o [13]
+  .rodata            const    0x6001'2fb0      0x48  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'2ff8      0x48  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3040      0x48  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3088      0x48  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'30d0      0x48  queueManager.o [13]
+  .text              ro code  0x6001'3118      0x48  fsl_spdif.o [7]
+  .rodata            const    0x6001'3160      0x44  averyWeigher.o [21]
+  .rodata            const    0x6001'31a4      0x44  averyWeigher.o [21]
+  .rodata            const    0x6001'31e8      0x44  averyWeigher.o [21]
+  .rodata            const    0x6001'322c      0x44  averyWeigher.o [21]
+  .rodata            const    0x6001'3270      0x44  averyWeigher.o [21]
+  .rodata            const    0x6001'32b4      0x44  printEngine.o [12]
+  .rodata            const    0x6001'32f8      0x44  printEngine.o [12]
+  .rodata            const    0x6001'333c      0x44  printEngine.o [12]
+  .rodata            const    0x6001'3380      0x44  queueManager.o [13]
+  .rodata            const    0x6001'33c4      0x44  queueManager.o [13]
+  .rodata            const    0x6001'3408      0x44  queueManager.o [13]
+  .rodata            const    0x6001'344c      0x44  queueManager.o [13]
+  .rodata            const    0x6001'3490      0x44  queueManager.o [13]
+  .rodata            const    0x6001'34d4      0x40  averyWeigher.o [21]
+  .rodata            const    0x6001'3514      0x40  averyWeigher.o [21]
+  .rodata            const    0x6001'3554      0x40  averyWeigher.o [21]
+  .rodata            const    0x6001'3594      0x40  averyWeigher.o [21]
+  .rodata            const    0x6001'35d4      0x40  cs5530.o [13]
+  .rodata            const    0x6001'3614      0x40  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3654      0x40  fsl_lpspi.o [7]
+  .rodata            const    0x6001'3694      0x40  fsl_lpuart.o [7]
+  .rodata            const    0x6001'36d4      0x40  printEngine.o [12]
+  .rodata            const    0x6001'3714      0x40  queueManager.o [13]
+  .rodata            const    0x6001'3754      0x40  queueManager.o [13]
+  .rodata            const    0x6001'3794      0x40  threadManager.o [13]
+  .rodata            const    0x6001'37d4      0x3c  averyWeigher.o [21]
+  .rodata            const    0x6001'3810      0x3c  averyWeigher.o [21]
+  .rodata            const    0x6001'384c      0x3c  averyWeigher.o [21]
+  .rodata            const    0x6001'3888      0x3c  averyWeigher.o [21]
+  .rodata            const    0x6001'38c4      0x3c  cat3Audit.o [21]
+  .rodata            const    0x6001'3900      0x3c  cs5530.o [13]
+  .rodata            const    0x6001'393c      0x3c  cs5530.o [13]
+  .rodata            const    0x6001'3978      0x3c  cs5530.o [13]
+  .rodata            const    0x6001'39b4      0x3c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'39f0      0x3c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3a2c      0x3c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3a68      0x3c  fsl_enet.o [7]
+  .rodata            const    0x6001'3aa4      0x3c  fsl_gpio.o [7]
+  .rodata            const    0x6001'3ae0      0x3c  fsl_gpt.o [7]
+  .rodata            const    0x6001'3b1c      0x3c  fsl_pwm.o [7]
+  .rodata            const    0x6001'3b58      0x3c  printEngine.o [12]
+  .rodata            const    0x6001'3b94      0x3c  printHead.o [12]
+  .rodata            const    0x6001'3bd0      0x3c  sca3300.o [13]
+  .rodata            const    0x6001'3c0c      0x3c  threadManager.o [13]
+  .text              ro code  0x6001'3c48      0x3c  fsl_usdhc.o [7]
+  .rodata            const    0x6001'3c84      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3cbc      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3cf4      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3d2c      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3d64      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3d9c      0x38  averyWeigher.o [21]
+  .rodata            const    0x6001'3dd4      0x38  cs5530.o [13]
+  .rodata            const    0x6001'3e0c      0x38  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3e44      0x38  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3e7c      0x38  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3eb4      0x38  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'3eec      0x38  printEngine.o [12]
+  .rodata            const    0x6001'3f24      0x38  printEngine.o [12]
+  .rodata            const    0x6001'3f5c      0x38  printEngine.o [12]
+  .rodata            const    0x6001'3f94      0x38  printEngine.o [12]
+  .rodata            const    0x6001'3fcc      0x38  printEngine.o [12]
+  .rodata            const    0x6001'4004      0x38  printEngine.o [12]
+  .rodata            const    0x6001'403c      0x38  printEngine.o [12]
+  .rodata            const    0x6001'4074      0x38  printEngine.o [12]
+  .rodata            const    0x6001'40ac      0x38  printEngine.o [12]
+  .rodata            const    0x6001'40e4      0x38  printEngine.o [12]
+  .rodata            const    0x6001'411c      0x38  printEngine.o [12]
+  .rodata            const    0x6001'4154      0x38  printEngine.o [12]
+  .rodata            const    0x6001'418c      0x38  threadManager.o [13]
+  .rodata            const    0x6001'41c4      0x38  threadManager.o [13]
+  .text              ro code  0x6001'41fc      0x38  zero_init3.o [29]
+  .rodata            const    0x6001'4234      0x34  averyWeigher.o [21]
+  .rodata            const    0x6001'4268      0x34  averyWeigher.o [21]
+  .rodata            const    0x6001'429c      0x34  averyWeigher.o [21]
+  .rodata            const    0x6001'42d0      0x34  averyWeigher.o [21]
+  .rodata            const    0x6001'4304      0x34  cs5530.o [13]
+  .rodata            const    0x6001'4338      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'436c      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'43a0      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'43d4      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4408      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'443c      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4470      0x34  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'44a4      0x34  printEngine.o [12]
+  .rodata            const    0x6001'44d8      0x34  printEngine.o [12]
+  .rodata            const    0x6001'450c      0x34  printEngine.o [12]
+  .rodata            const    0x6001'4540      0x34  printEngine.o [12]
+  .rodata            const    0x6001'4574      0x34  printHead.o [12]
+  .rodata            const    0x6001'45a8      0x34  printHead.o [12]
+  .rodata            const    0x6001'45dc      0x34  sca3300.o [13]
+  .rodata            const    0x6001'4610      0x34  threadManager.o [13]
+  .rodata            const    0x6001'4644      0x34  threadManager.o [13]
+  .rodata            const    0x6001'4678      0x34  translator.o [13]
+  .rodata            const    0x6001'46ac      0x34  translator.o [13]
+  .rodata            const    0x6001'46e0      0x30  averyWeigher.o [21]
+  .rodata            const    0x6001'4710      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4740      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4770      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'47a0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'47d0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4800      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4830      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4860      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4890      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'48c0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'48f0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4920      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4950      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4980      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'49b0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'49e0      0x30  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4a10      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4a40      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4a70      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4aa0      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4ad0      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4b00      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4b30      0x30  printEngine.o [12]
+  .rodata            const    0x6001'4b60      0x30  threadManager.o [13]
+  .rodata            const    0x6001'4b90      0x30  threadManager.o [13]
+  .rodata            const    0x6001'4bc0      0x30  translator.o [13]
+  .rodata            const    0x6001'4bf0      0x30  translator.o [13]
+  .rodata            const    0x6001'4c20      0x30  translator.o [13]
+  .rodata            const    0x6001'4c50      0x30  translator.o [13]
+  .rodata            const    0x6001'4c80      0x2c  averyWeigher.o [21]
+  .rodata            const    0x6001'4cac      0x2c  cs5530.o [13]
+  .rodata            const    0x6001'4cd8      0x2c  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'4d04      0x2c  fsl_assert.o [23]
+  .rodata            const    0x6001'4d30      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4d5c      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4d88      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4db4      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4de0      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4e0c      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4e38      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4e64      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4e90      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4ebc      0x2c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'4ee8      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4f14      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4f40      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4f6c      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4f98      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4fc4      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'4ff0      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'501c      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'5048      0x2c  printEngine.o [12]
+  .rodata            const    0x6001'5074      0x2c  systemTimer.o [13]
+  .rodata            const    0x6001'50a0      0x2c  w25x10cl.o [13]
+  .rodata            const    0x6001'50cc      0x28  averyWeigher.o [21]
+  .rodata            const    0x6001'50f4      0x28  averyWeigher.o [21]
+  .rodata            const    0x6001'511c      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5144      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'516c      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5194      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'51bc      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'51e4      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'520c      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5234      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'525c      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5284      0x28  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'52ac      0x28  fsl_lpuart.o [7]
+  .rodata            const    0x6001'52d4      0x28  fsl_lpuart.o [7]
+  .rodata            const    0x6001'52fc      0x28  printEngine.o [12]
+  .rodata            const    0x6001'5324      0x28  printEngine.o [12]
+  .rodata            const    0x6001'534c      0x28  printEngine.o [12]
+  .rodata            const    0x6001'5374      0x28  printEngine.o [12]
+  .rodata            const    0x6001'539c      0x28  printEngine.o [12]
+  .rodata            const    0x6001'53c4      0x28  systemTimer.o [13]
+  .rodata            const    0x6001'53ec      0x28  systemTimer.o [13]
+  .rodata            const    0x6001'5414      0x28  translator.o [13]
+  .rodata            const    0x6001'543c      0x28  translator.o [13]
+  .text              ro code  0x6001'5464      0x28  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'548c      0x28  data_init.o [29]
+  .rodata            const    0x6001'54b4      0x24  averyWeigher.o [21]
+  .rodata            const    0x6001'54d8      0x24  commandTable.o [12]
+  .rodata            const    0x6001'54fc      0x24  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'5520      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5544      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5568      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'558c      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'55b0      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'55d4      0x24  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'55f8      0x24  fsl_lpuart.o [7]
+  .rodata            const    0x6001'561c      0x24  printEngine.o [12]
+  .rodata            const    0x6001'5640      0x24  printEngine.o [12]
+  .rodata            const    0x6001'5664      0x24  printEngine.o [12]
+  .rodata            const    0x6001'5688      0x24  printEngine.o [12]
+  .rodata            const    0x6001'56ac      0x24  sensors.o [13]
+  .text              ro code  0x6001'56d0      0x24  fsl_flexspi.o [7]
+  .text              ro code  0x6001'56f4      0x22  fpinit_M.o [28]
+  .iar.init_table    const    0x6001'5718      0x24  - Linker created -
+  .rodata            const    0x6001'573c      0x20  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'575c      0x20  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'577c      0x20  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'579c      0x20  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'57bc      0x20  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'57dc      0x20  printEngine.o [12]
+  .rodata            const    0x6001'57fc      0x20  printEngine.o [12]
+  .rodata            const    0x6001'581c      0x20  printEngine.o [12]
+  .rodata            const    0x6001'583c      0x20  printEngine.o [12]
+  .rodata            const    0x6001'585c      0x20  sensors.o [13]
+  .rodata            const    0x6001'587c      0x20  sensors.o [13]
+  Initializer bytes  const    0x6001'589c      0x20  <for RW-1> (used: 0x0)
+  .text              ro code  0x6001'58bc      0x1e  cmain.o [29]
+  .text              ro code  0x6001'58da       0x4  low_level_init.o [27]
+  .text              ro code  0x6001'58de      0x18  globalScale.o [11]
+  .text              ro code  0x6001'58f6       0x4  exit.o [27]
+  .text              ro code  0x6001'58fc       0xa  cexit.o [29]
+  .text              ro code  0x6001'5908      0x14  exit.o [30]
+  .rodata            const    0x6001'591c      0x1c  board.o [3]
+  .rodata            const    0x6001'5938      0x1c  commandTable.o [12]
+  .rodata            const    0x6001'5954      0x1c  commandTable.o [12]
+  .rodata            const    0x6001'5970      0x1c  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'598c      0x1c  fsl_edma.o [7]
+  .rodata            const    0x6001'59a8      0x1c  fsl_gpt.o [7]
+  .rodata            const    0x6001'59c4      0x1c  fsl_lpuart.o [7]
+  .rodata            const    0x6001'59e0      0x1c  printEngine.o [12]
+  .rodata            const    0x6001'59fc      0x1c  printEngine.o [12]
+  .rodata            const    0x6001'5a18      0x1c  w25x10cl.o [13]
+  .text              ro code  0x6001'5a34      0x1c  cstartup_M.o [29]
+  .rodata            const    0x6001'5a50      0x18  board.o [3]
+  .rodata            const    0x6001'5a68      0x18  clock_config.o [3]
+  .rodata            const    0x6001'5a80      0x18  commandTable.o [12]
+  .rodata            const    0x6001'5a98      0x18  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5ab0      0x18  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5ac8      0x18  fsl_flexcan.o [7]
+  .rodata            const    0x6001'5ae0      0x18  fsl_flexcan.o [7]
+  .rodata            const    0x6001'5af8      0x18  fsl_gpio.o [7]
+  .rodata            const    0x6001'5b10      0x18  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5b28      0x18  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5b40      0x18  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5b58      0x18  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5b70      0x18  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5b88      0x18  fsl_pwm.o [7]
+  .rodata            const    0x6001'5ba0      0x18  fsl_sai.o [7]
+  .rodata            const    0x6001'5bb8      0x18  fsl_sai.o [7]
+  .rodata            const    0x6001'5bd0      0x18  pin_mux.o [3]
+  .rodata            const    0x6001'5be8      0x18  printEngine.o [12]
+  .rodata            const    0x6001'5c00      0x18  threadManager.o [13]
+  .rodata            const    0x6001'5c18      0x18  threadManager.o [13]
+  .rodata            const    0x6001'5c30      0x18  w25x10cl.o [13]
+  .rodata            const    0x6001'5c48      0x14  clock_config.o [3]
+  .rodata            const    0x6001'5c5c      0x14  fsl_adc_etc.o [7]
+  .rodata            const    0x6001'5c70      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5c84      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5c98      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5cac      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5cc0      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5cd4      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5ce8      0x14  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5cfc      0x14  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5d10      0x14  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5d24      0x14  fsl_lpuart.o [7]
+  .rodata            const    0x6001'5d38      0x14  printEngine.o [12]
+  .rodata            const    0x6001'5d4c      0x14  printEngine.o [12]
+  .rodata            const    0x6001'5d60      0x14  printEngine.o [12]
+  .rodata            const    0x6001'5d74      0x14  printHead.o [12]
+  .rodata            const    0x6001'5d88      0x14  threadManager.o [13]
+  .rodata            const    0x6001'5d9c      0x14  threadManager.o [13]
+  .rodata            const    0x6001'5db0      0x14  threadManager.o [13]
+  .rodata            const    0x6001'5dc4      0x14  threadManager.o [13]
+  .rodata            const    0x6001'5dd8      0x14  threadManager.o [13]
+  .rodata            const    0x6001'5dec      0x10  clock_config.o [3]
+  .rodata            const    0x6001'5dfc      0x10  fsl_clock.o [7]
+  .rodata            const    0x6001'5e0c      0x10  fsl_clock.o [7]
+  .rodata            const    0x6001'5e1c      0x10  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5e2c      0x10  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5e3c      0x10  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'5e4c      0x10  fsl_debug_console.o [23]
+  .rodata            const    0x6001'5e5c      0x10  fsl_gpio.o [7]
+  .rodata            const    0x6001'5e6c      0x10  fsl_gpt.o [7]
+  .rodata            const    0x6001'5e7c      0x10  fsl_gpt.o [7]
+  .rodata            const    0x6001'5e8c      0x10  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5e9c      0x10  fsl_lpspi.o [7]
+  .rodata            const    0x6001'5eac      0x10  fsl_lpuart.o [7]
+  .rodata            const    0x6001'5ebc      0x10  fsl_pwm.o [7]
+  .rodata            const    0x6001'5ecc      0x10  pin_mux.o [3]
+  .rodata            const    0x6001'5edc      0x10  printEngine.o [12]
+  .rodata            const    0x6001'5eec      0x10  printHead.o [12]
+  .rodata            const    0x6001'5efc      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f0c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f1c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f2c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f3c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f4c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f5c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f6c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f7c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f8c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5f9c      0x10  printHead.o [12]
+  .rodata            const    0x6001'5fac      0x10  sca3300.o [13]
+  .text              ro code  0x6001'5fbc      0x10  usbTask.o [14]
+  .rodata            const    0x6001'5fcc       0xc  averyWeigher.o [21]
+  .rodata            const    0x6001'5fd8       0xc  cs5530.o [13]
+  .rodata            const    0x6001'5fe4       0xc  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'5ff0       0xc  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'5ffc       0xc  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'6008       0xc  fsl_adapter_lpuart.o [25]
+  .rodata            const    0x6001'6014       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6020       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'602c       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6038       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6044       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6050       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'605c       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6068       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6074       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6080       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'608c       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'6098       0xc  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'60a4       0xc  fsl_edma.o [7]
+  .rodata            const    0x6001'60b0       0xc  fsl_gpio.o [7]
+  .rodata            const    0x6001'60bc       0xc  fsl_gpio.o [7]
+  .rodata            const    0x6001'60c8       0xc  fsl_gpt.o [7]
+  .rodata            const    0x6001'60d4       0xc  fsl_gpt.o [7]
+  .rodata            const    0x6001'60e0       0xc  fsl_lpspi.o [7]
+  .rodata            const    0x6001'60ec       0xc  fsl_lpspi.o [7]
+  .rodata            const    0x6001'60f8       0xc  fsl_lpspi.o [7]
+  .rodata            const    0x6001'6104       0xc  fsl_lpspi.o [7]
+  .rodata            const    0x6001'6110       0xc  fsl_lpspi.o [7]
+  .rodata            const    0x6001'611c       0xc  fsl_lpuart.o [7]
+  .rodata            const    0x6001'6128       0xc  fsl_lpuart.o [7]
+  .rodata            const    0x6001'6134       0xc  fsl_pwm.o [7]
+  .rodata            const    0x6001'6140       0xc  fsl_pwm.o [7]
+  .rodata            const    0x6001'614c       0xc  fsl_pwm.o [7]
+  .rodata            const    0x6001'6158       0xc  fsl_pwm.o [7]
+  .rodata            const    0x6001'6164       0xc  fsl_pwm.o [7]
+  .rodata            const    0x6001'6170       0xc  fsl_usdhc.o [7]
+  .rodata            const    0x6001'617c       0xc  printEngine.o [12]
+  .rodata            const    0x6001'6188       0xc  printEngine.o [12]
+  .rodata            const    0x6001'6194       0xc  systemTimer.o [13]
+  .rodata            const    0x6001'61a0       0x8  board.o [3]
+  .rodata            const    0x6001'61a8       0x8  clock_config.o [3]
+  .rodata            const    0x6001'61b0       0x8  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'61b8       0x8  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'61c0       0x8  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'61c8       0x8  fsl_component_exception_handling.o [4]
+  .rodata            const    0x6001'61d0       0x8  fsl_gpt.o [7]
+  .rodata            const    0x6001'61d8       0x8  fsl_lpspi.o [7]
+  .rodata            const    0x6001'61e0       0x8  fsl_pwm.o [7]
+  .rodata            const    0x6001'61e8       0x8  tasks.o [8]
+  .rodata            const    0x6001'61f0       0x8  timers.o [8]
+  .rodata            const    0x6001'61f8       0x8  timers.o [8]
+  .text              ro code  0x6001'6200       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6208       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6210       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6218       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6220       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6228       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6230       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6238       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6240       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6248       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6250       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6258       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6260       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6268       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6270       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6278       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6280       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6288       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6290       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6298       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62a0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62a8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62b0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62b8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62c0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62c8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62d0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62d8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62e0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62e8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62f0       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'62f8       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6300       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6308       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6310       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6318       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6320       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6328       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6330       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6338       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6340       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6348       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6350       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6358       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6360       0x8  startup_MIMXRT1024.o [22]
+  .text              ro code  0x6001'6368       0x8  startup_MIMXRT1024.o [22]
+  .rodata            const    0x6001'6370       0x4  fsl_enet.o [7]
+  .rodata            const    0x6001'6374       0x4  heap_4.o [10]
+  .rodata            const    0x6001'6378       0x4  port.o [9]
+  .rodata            const    0x6001'637c       0x4  printEngine.o [12]
+  .rodata            const    0x6001'6380       0x4  systemTimer.o [13]
+  .text              ro code  0x6001'6384       0x4  startup_MIMXRT1024.o [22]
+  .rodata            const    0x6001'6388       0x0  zero_init3.o [29]
+  .rodata            const    0x6001'6388       0x0  copy_init3.o [29]
+                            - 0x6001'6388  0x1'3f88
+
+"P2-P3|P5", part 1 of 2 (*** FAILED ***):      0x20
+  RW                                           0x20  <Block>
+    RW-1                                       0x1f  <Init block>
+      .data          inited                     0x4  port.o [9]
+      .data          inited                     0x4  printEngine.o [12]
+      .data          inited                     0x4  system_MIMXRT1024.o [2]
+      .data          inited                     0x4  tasks.o [8]
+      .data          inited                     0x4  w25x10cl.o [13]
+      .data          inited                     0x4  w25x10cl.o [13]
+      .data          inited                     0x4  w25x10cl.o [13]
+      .data          inited                     0x1  averyWeigher.o [21]
+      .data          inited                     0x1  printEngine.o [12]
+      .data          inited                     0x1  sensors.o [13]
+                                               0x20
+
+"P2-P3|P5", part 2 of 2 (*** FAILED ***):  0x2'aa1c
+  ZI                                       0x2'aa1c  <Block>
+    .bss             zero                       0x4  averyCutter.o [12]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                      0x18  averyWeigher.o [21]
+    .bss             zero                      0x18  averyWeigher.o [21]
+    .bss             zero                      0x10  averyWeigher.o [21]
+    .bss             zero                      0x38  averyWeigher.o [21]
+    .bss             zero                       0xc  averyWeigher.o [21]
+    .bss             zero                     0x598  averyWeigher.o [21]
+    .bss             zero                       0x4  averyWeigher.o [21]
+    .bss             zero                      0x98  averyWeigher.o [21]
+    .bss             zero                      0x2c  cat3Audit.o [21]
+    .bss             zero                      0x20  cat3Audit.o [21]
+    .bss             zero                    0x1004  cat3Audit.o [21]
+    .bss             zero                      0x24  commandTable.o [12]
+    .bss             zero                    0x32a0  commandTable.o [12]
+    .bss             zero                       0x4  commandTable.o [12]
+    .bss             zero                       0x4  cs5530.o [13]
+    .bss             zero                      0x40  cs5530.o [13]
+    .bss             zero                      0x38  cs5530.o [13]
+    .bss             zero                       0x4  dotWearTask.o [12]
+    .bss             zero                       0x4  fsl_clock.o [7]
+    .bss             zero                       0x4  fsl_clock.o [7]
+    .bss             zero                       0x4  fsl_component_exception_handling.o [4]
+    .bss             zero                      0x20  fsl_debug_console.o [23]
+    .bss             zero                       0x4  fsl_debug_console.o [23]
+    .bss             zero                      0x80  fsl_edma.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0x4  fsl_enet.o [7]
+    .bss             zero                       0xc  fsl_flexcan.o [7]
+    .bss             zero                       0x4  fsl_flexcan.o [7]
+    .bss             zero                       0x8  fsl_flexio.o [7]
+    .bss             zero                       0x8  fsl_flexio.o [7]
+    .bss             zero                       0x8  fsl_flexio.o [7]
+    .bss             zero                       0x4  fsl_flexspi.o [7]
+    .bss             zero                       0x4  fsl_flexspi.o [7]
+    .bss             zero                       0x4  fsl_lpi2c.o [7]
+    .bss             zero                      0x14  fsl_lpi2c.o [7]
+    .bss             zero                       0x4  fsl_lpi2c.o [7]
+    .bss             zero                      0x14  fsl_lpi2c.o [7]
+    .bss             zero                      0x14  fsl_lpspi.o [7]
+    .bss             zero                       0x4  fsl_lpspi.o [7]
+    .bss             zero                       0x4  fsl_lpspi.o [7]
+    .bss             zero                       0x8  fsl_lpspi.o [7]
+    .bss             zero                      0x24  fsl_lpuart.o [7]
+    .bss             zero                       0x4  fsl_lpuart.o [7]
+    .bss             zero                      0x20  fsl_sai.o [7]
+    .bss             zero                       0x4  fsl_sai.o [7]
+    .bss             zero                       0x4  fsl_sai.o [7]
+    .bss             zero                       0x8  fsl_spdif.o [7]
+    .bss             zero                       0x4  fsl_spdif.o [7]
+    .bss             zero                       0x4  fsl_spdif.o [7]
+    .bss             zero                       0xc  fsl_usdhc.o [7]
+    .bss             zero                       0x4  fsl_usdhc.o [7]
+    .bss             zero                      0x18  globalPrinterTask.o [12]
+    .bss             zero                  0x1'9000  heap_4.o [10]
+    .bss             zero                       0x8  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  heap_4.o [10]
+    .bss             zero                       0x4  port.o [9]
+    .bss             zero                      0x54  printEngine.o [12]
+    .bss             zero                      0x38  printEngine.o [12]
+    .bss             zero                       0x8  printEngine.o [12]
+    .bss             zero                       0x8  printEngine.o [12]
+    .bss             zero                       0x8  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                      0x10  printEngine.o [12]
+    .bss             zero                      0x10  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printEngine.o [12]
+    .bss             zero                       0x4  printHead.o [12]
+    .bss             zero                      0x10  printHead.o [12]
+    .bss             zero                      0x10  printHead.o [12]
+    .bss             zero                      0x10  printHead.o [12]
+    .bss             zero                       0x8  printHead.o [12]
+    .bss             zero                      0x38  printHead.o [12]
+    .bss             zero                      0x40  queue.o [8]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  queueManager.o [13]
+    .bss             zero                       0x4  sca3300.o [13]
+    .bss             zero                      0x10  sensors.o [13]
+    .bss             zero                      0x24  sensors.o [13]
+    .bss             zero                       0x4  sensors.o [13]
+    .bss             zero                       0x4  systemTimer.o [13]
+    .bss             zero                       0x4  systemTimer.o [13]
+    .bss             zero                       0x4  systemTimer.o [13]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                      0x64  tasks.o [8]
+    .bss             zero                      0x14  tasks.o [8]
+    .bss             zero                      0x14  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                      0x14  tasks.o [8]
+    .bss             zero                      0x14  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                      0x14  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                       0x4  tasks.o [8]
+    .bss             zero                      0x14  timers.o [8]
+    .bss             zero                      0x14  timers.o [8]
+    .bss             zero                       0x4  timers.o [8]
+    .bss             zero                       0x4  timers.o [8]
+    .bss             zero                       0x4  timers.o [8]
+    .bss             zero                       0x4  timers.o [8]
+    .bss             zero                       0x4  timers.o [8]
+    .bss             zero                       0x4  translator.o [13]
+    .bss             zero                      0x20  usbTask.o [14]
+    .bss             zero                     0x224  w25x10cl.o [13]
+    .bss             zero                      0x38  w25x10cl.o [13]
+    .tbss            zero                       0x4  errno.o [27]
+    DEFAULT_RAM0     zero                      0x58  averyCutter.o [12]
+    DEFAULT_RAM0     zero                      0x28  cat3Audit.o [21]
+    DEFAULT_RAM0     zero                    0xc748  printHead.o [12]
+    .bss             zero                       0x2  printHead.o [12]
+    .bss             zero                       0x1  averyWeigher.o [21]
+    .bss             zero                       0x1  averyWeigher.o [21]
+    .bss             zero                       0x1  averyWeigher.o [21]
+    .bss             zero                       0x1  averyWeigher.o [21]
+    .bss             zero                       0x1  averyWeigher.o [21]
+    .bss             zero                       0x1  dotWearTask.o [12]
+    .bss             zero                       0x1  fsl_debug_console.o [23]
+    .bss             zero                       0x1  port.o [9]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printEngine.o [12]
+    .bss             zero                       0x1  printHead.o [12]
+    .bss             zero                       0x1  sca3300.o [13]
+    .bss             zero                       0x1  sensors.o [13]
+    .bss             zero                       0x1  sensors.o [13]
+    .bss             zero                       0x1  sensors.o [13]
+                                           0x2'aa1c
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+  0x2000'0000  0x2000'fbff     0xfc00
+  0x6001'6388  0x603f'ffff  0x3e'9c78
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2'aa19:
+                  0x0  0x2'aa19
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x20 (103% of destination):
+          0x6001'589c      0x20
+    1 destination range, total size 0x1f:
+                  0x0      0x1f
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                              ro code  ro data  rw data
+    ------                              -------  -------  -------
+command line/config:
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj: [1]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\MIMXRT1024\device: [2]
+    system_MIMXRT1024.o                     346                 4
+    -------------------------------------------------------------
+    Total:                                  346                 4
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board: [3]
+    board.o                                 864      148
+    clock_config.o                        1'832      166
+    pin_mux.o                             4'748      136
+    -------------------------------------------------------------
+    Total:                                7'444      450
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\exceptions: [4]
+    fsl_component_exception_handling.o    1'164    5'180        4
+    -------------------------------------------------------------
+    Total:                                1'164    5'180        4
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\list: [5]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\osa: [6]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers: [7]
+    fsl_adc_etc.o                           344      116
+    fsl_clock.o                           1'968      128        8
+    fsl_edma.o                            1'140      132      128
+    fsl_enet.o                              304      156       24
+    fsl_flexcan.o                           112      144       16
+    fsl_flexio.o                             88                24
+    fsl_flexspi.o                            36                 8
+    fsl_gpio.o                              480      312
+    fsl_gpt.o                               552      432
+    fsl_lpi2c.o                             148                48
+    fsl_lpspi.o                           3'800      516       36
+    fsl_lpuart.o                          1'164      460       40
+    fsl_pwm.o                             2'116      356
+    fsl_sai.o                               328      140       40
+    fsl_spdif.o                              72                16
+    fsl_usdhc.o                              60       12       16
+    -------------------------------------------------------------
+    Total:                               12'712    2'904      404
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel: [8]
+    list.o                                  152
+    queue.o                               2'594                64
+    tasks.o                               2'860        8      264
+    timers.o                              1'292       16       60
+    -------------------------------------------------------------
+    Total:                                6'898       24      388
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F: [9]
+    port.o                                  600        4        9
+    portasm.o                               176
+    -------------------------------------------------------------
+    Total:                                  776        4        9
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\MemMang: [10]
+    heap_4.o                                664        4  102'432
+    -------------------------------------------------------------
+    Total:                                  664        4  102'432
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source: [11]
+    globalScale.o                            24
+    -------------------------------------------------------------
+    Total:                                   24
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer: [12]
+    averyCutter.o                            28                92
+    commandTable.o                          762      116   13'000
+    dotWearTask.o                            20                 5
+    dvr8818.o                               180
+    globalPrinterTask.o                                        24
+    printEngine.o                         9'596    2'948      247
+    printHead.o                           1'188      376   51'135
+    -------------------------------------------------------------
+    Total:                               11'774    3'440   64'503
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system: [13]
+    cs5530.o                              1'664      572      124
+    queueManager.o                          448      772       48
+    sca3300.o                               156      128        5
+    sensors.o                               632      192       60
+    serialFlash.o                           290
+    systemTimer.o                           244      140       12
+    threadManager.o                         382      584
+    translator.o                          1'596      376        4
+    vendor.o                                108        5
+    w25x10cl.o                            3'124      192      616
+    -------------------------------------------------------------
+    Total:                                8'644    2'961      869
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb: [14]
+    usbTask.o                                16                32
+    -------------------------------------------------------------
+    Total:                                   16                32
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\class: [15]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source: [16]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\dci: [17]
+    usb_device_dci.o                        332
+    -------------------------------------------------------------
+    Total:                                  332
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\ehci: [18]
+    usb_device_ehci.o                     1'430
+    -------------------------------------------------------------
+    Total:                                1'430
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\phy: [19]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\source: [20]
+    -------------------------------------------------------------
+    Total:
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher: [21]
+    averyWeigher.o                        1'538    1'672    1'746
+    boxcarFilter.o                           76
+    cat3Audit.o                           1'428      496    4'216
+    -------------------------------------------------------------
+    Total:                                3'042    2'168    5'962
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\startup: [22]
+    startup_MIMXRT1024.o                  1'438
+    -------------------------------------------------------------
+    Total:                                1'438
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities: [23]
+    fsl_assert.o                             24       44
+    fsl_debug_console.o                     412       16       37
+    fsl_str.o                             2'456
+    -------------------------------------------------------------
+    Total:                                2'892       60       37
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common: [24]
+    fsl_component_serial_manager.o          258
+    fsl_component_serial_port_uart.o         48
+    -------------------------------------------------------------
+    Total:                                  306
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common\uart: [25]
+    fsl_adapter_lpuart.o                    396      320
+    -------------------------------------------------------------
+    Total:                                  396      320
+
+D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\xip: [26]
+    -------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [27]
+    abs.o                                     8
+    errno.o                                  36                 4
+    exit.o                                    4
+    low_level_init.o                          4
+    tp_nothreads.o                            4
+    -------------------------------------------------------------
+    Total:                                   56                 4
+
+m7M_tlv.a: [28]
+    DblToS64.o                              102
+    S64ToDbl.o                               84
+    fpinit_M.o                               34
+    frexp.o                                 124
+    iar_Exp64.o                             632
+    ldexp.o                                 240
+    modf.o                                  158
+    pow64.o                               1'256    1'056
+    -------------------------------------------------------------
+    Total:                                2'630    1'056
+
+rt7M_tl.a: [29]
+    ABImemcpy.o                             166
+    ABImemset.o                             102
+    I64DivMod.o                             628
+    I64DivZer.o                               2
+    cexit.o                                  10
+    cmain.o                                  30
+    copy_init3.o                             42
+    cstartup_M.o                             28
+    data_init.o                              40
+    strlen.o                                 54
+    zero_init3.o                             56
+    -------------------------------------------------------------
+    Total:                                1'158
+
+shb_l.a: [30]
+    exit.o                                   20
+    -------------------------------------------------------------
+    Total:                                   20
+
+    Gaps                                     21        2
+    Linker created                                    68    1'024
+-----------------------------------------------------------------
+    Grand Total:                         64'183   18'641  175'672
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address      Size  Type      Object
+-----                       -------      ----  ----      ------
+.iar.init_table$$Base   0x6001'5718             --   Gb  - Linker created -
+.iar.init_table$$Limit  0x6001'573c             --   Gb  - Linker created -
+?main                   0x6001'58bd            Code  Gb  cmain.o [29]
+ACMP1_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ACMP2_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ACMP3_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ACMP4_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ADC1_IRQHandler         0x6000'82f5      0x2c  Code  Gb  sensors.o [13]
+ADC2_IRQHandler         0x6000'825f      0x90  Code  Gb  sensors.o [13]
+ADC_ETC_ClearInterruptStatusFlags
+                        0x6000'aeff      0x30  Code  Gb  fsl_adc_etc.o [7]
+ADC_ETC_ERROR_IRQ_IRQHandler
+                        0x6000'81df      0x28  Code  Gb  sensors.o [13]
+ADC_ETC_GetADCConversionValue
+                        0x6000'af2f      0xd8  Code  Gb  fsl_adc_etc.o [7]
+ADC_ETC_GetInterruptStatusFlags
+                        0x6000'aebd      0x42  Code  Gb  fsl_adc_etc.o [7]
+ADC_ETC_IRQ0_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ADC_ETC_IRQ1_IRQHandler
+                        0x6000'814b      0x94  Code  Gb  sensors.o [13]
+ADC_ETC_IRQ2_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ADC_GetChannelConversionValue
+                        0x6000'8105      0x26  Code  Lc  sensors.o [13]
+ARM_MPU_Disable         0x6001'1395      0x1a  Code  Lc  board.o [3]
+ARM_MPU_Enable          0x6001'1379      0x1c  Code  Lc  board.o [3]
+BEE_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+BOARD_BootClockRUN      0x6000'f9bf     0x426  Code  Gb  clock_config.o [3]
+BOARD_ConfigMPU         0x6001'1465     0x1e6  Code  Gb  board.o [3]
+BOARD_DebugConsoleSrcFreq
+                        0x6001'1415      0x3a  Code  Gb  board.o [3]
+BOARD_InitBootClocks    0x6000'f9b7       0x8  Code  Gb  clock_config.o [3]
+BOARD_InitBootPins      0x6000'e68b      0x80  Code  Gb  pin_mux.o [3]
+BOARD_InitDebugConsole  0x6001'144f      0x16  Code  Gb  board.o [3]
+BOARD_InitPins          0x6000'e769     0xe34  Code  Gb  pin_mux.o [3]
+BusFault_Handler        0x6001'0947       0x8  Code  Gb  fsl_component_exception_handling.o [4]
+CAN1_DriverIRQHandler   0x6001'1e55      0x2a  Code  Gb  fsl_flexcan.o [7]
+CAN1_IRQHandler         0x6001'6309            Code  Wk  startup_MIMXRT1024.o [22]
+CAN2_DriverIRQHandler   0x6001'1e7f      0x2a  Code  Gb  fsl_flexcan.o [7]
+CAN2_IRQHandler         0x6001'6311            Code  Wk  startup_MIMXRT1024.o [22]
+CCM_1_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+CCM_2_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+CLOCK_ControlGate       0x6000'f8b3      0x46  Code  Lc  clock_config.o [3]
+CLOCK_ControlGate       0x6000'49ab      0x40  Code  Lc  fsl_gpio.o [7]
+CLOCK_ControlGate       0x6000'63af      0x40  Code  Lc  fsl_gpt.o [7]
+CLOCK_ControlGate       0x6000'5359      0x46  Code  Lc  fsl_lpspi.o [7]
+CLOCK_ControlGate       0x6000'dfdb      0x46  Code  Lc  fsl_lpuart.o [7]
+CLOCK_ControlGate       0x6000'65d7      0x46  Code  Lc  fsl_pwm.o [7]
+CLOCK_ControlGate       0x6000'e617      0x40  Code  Lc  pin_mux.o [3]
+CLOCK_DeinitAudioPll    0x6000'4f65       0xc  Code  Gb  fsl_clock.o [7]
+CLOCK_DisableClock      0x6000'f8f9       0xc  Code  Lc  clock_config.o [3]
+CLOCK_DisableClock      0x6000'63fb       0xc  Code  Lc  fsl_gpt.o [7]
+CLOCK_DisableClock      0x6000'6629       0xc  Code  Lc  fsl_pwm.o [7]
+CLOCK_EnableClock       0x6000'49eb       0xc  Code  Lc  fsl_gpio.o [7]
+CLOCK_EnableClock       0x6000'63ef       0xc  Code  Lc  fsl_gpt.o [7]
+CLOCK_EnableClock       0x6000'539f       0xc  Code  Lc  fsl_lpspi.o [7]
+CLOCK_EnableClock       0x6000'e021       0xc  Code  Lc  fsl_lpuart.o [7]
+CLOCK_EnableClock       0x6000'661d       0xc  Code  Lc  fsl_pwm.o [7]
+CLOCK_EnableClock       0x6000'e657       0xc  Code  Lc  pin_mux.o [3]
+CLOCK_GetAhbFreq        0x6000'4d05      0x18  Code  Gb  fsl_clock.o [7]
+CLOCK_GetDiv            0x6001'13d9      0x2a  Code  Lc  board.o [3]
+CLOCK_GetFreq           0x6000'4d8d     0x124  Code  Gb  fsl_clock.o [7]
+CLOCK_GetIpgFreq        0x6000'4d51      0x18  Code  Gb  fsl_clock.o [7]
+CLOCK_GetMux            0x6001'13af      0x2a  Code  Lc  board.o [3]
+CLOCK_GetOscFreq        0x6001'1403      0x12  Code  Lc  board.o [3]
+CLOCK_GetOscFreq        0x6000'4b75      0x18  Code  Lc  fsl_clock.o [7]
+CLOCK_GetPerClkFreq     0x6000'4d69      0x24  Code  Gb  fsl_clock.o [7]
+CLOCK_GetPeriphClkFreq  0x6000'4bd5      0x98  Code  Lc  fsl_clock.o [7]
+CLOCK_GetPllBypassRefClk
+                        0x6000'4bb9      0x1c  Code  Lc  fsl_clock.o [7]
+CLOCK_GetPllFreq        0x6000'4fcf     0x198  Code  Gb  fsl_clock.o [7]
+CLOCK_GetPllFreq::enetRefClkFreq
+                        0x6001'5e0c      0x10  Data  Lc  fsl_clock.o [7]
+CLOCK_GetPllUsb1SWFreq  0x6000'4c6d      0x2a  Code  Lc  fsl_clock.o [7]
+CLOCK_GetRtcFreq        0x6000'4b8d       0x6  Code  Lc  fsl_clock.o [7]
+CLOCK_GetSemcFreq       0x6000'4d1d      0x34  Code  Gb  fsl_clock.o [7]
+CLOCK_GetSysPfdFreq     0x6000'51cb      0x5e  Code  Gb  fsl_clock.o [7]
+CLOCK_GetUsb1PfdFreq    0x6000'5229      0x5c  Code  Gb  fsl_clock.o [7]
+CLOCK_InitEnetPll       0x6000'4f71      0x5e  Code  Gb  fsl_clock.o [7]
+CLOCK_InitExternalClk   0x6000'4c97      0x46  Code  Gb  fsl_clock.o [7]
+CLOCK_InitRcOsc24M      0x6000'4cf7       0xe  Code  Gb  fsl_clock.o [7]
+CLOCK_InitSysPfd        0x6000'5167      0x32  Code  Gb  fsl_clock.o [7]
+CLOCK_InitSysPll        0x6000'4eb1      0x74  Code  Gb  fsl_clock.o [7]
+CLOCK_InitUsb1Pfd       0x6000'5199      0x32  Code  Gb  fsl_clock.o [7]
+CLOCK_InitUsb1Pll       0x6000'4f25      0x40  Code  Gb  fsl_clock.o [7]
+CLOCK_IsPllBypassed     0x6000'4b93      0x10  Code  Lc  fsl_clock.o [7]
+CLOCK_IsPllEnabled      0x6000'4ba3      0x16  Code  Lc  fsl_clock.o [7]
+CLOCK_SetDiv            0x6000'f84d      0x66  Code  Lc  clock_config.o [3]
+CLOCK_SetDiv            0x6000'e5b9      0x5e  Code  Lc  pin_mux.o [3]
+CLOCK_SetDiv            0x6000'b34d      0x66  Code  Lc  w25x10cl.o [13]
+CLOCK_SetMux            0x6000'f7e7      0x66  Code  Lc  clock_config.o [3]
+CLOCK_SetMux            0x6000'e55b      0x5e  Code  Lc  pin_mux.o [3]
+CLOCK_SetMux            0x6000'b2e7      0x66  Code  Lc  w25x10cl.o [13]
+CLOCK_SetPllBypass      0x6000'f915      0x26  Code  Lc  clock_config.o [3]
+CLOCK_SetRtcXtalFreq    0x6000'f90d       0x8  Code  Lc  clock_config.o [3]
+CLOCK_SetXtalFreq       0x6000'f905       0x8  Code  Lc  clock_config.o [3]
+CLOCK_SwitchOsc         0x6000'4cdd      0x1a  Code  Gb  fsl_clock.o [7]
+CORE_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+CSTACK$$Base            0x2000'fc00             --   Gb  - Linker created -
+CSTACK$$Limit           0x2001'0000             --   Gb  - Linker created -
+CSU_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+CTI0_ERROR_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+CTI1_ERROR_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ConvertFloatRadixNumToString
+                        0x6000'9fa1     0x170  Code  Lc  fsl_str.o [23]
+ConvertRadixNumToString
+                        0x6000'9e97     0x10a  Code  Lc  fsl_str.o [23]
+DCDC_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+DCP_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+DCP_VMI_IRQHandler      0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+DMA0_DMA16_DriverIRQHandler
+                        0x6001'0ba7      0x36  Code  Gb  fsl_edma.o [7]
+DMA0_DMA16_IRQHandler   0x6001'6201            Code  Wk  startup_MIMXRT1024.o [22]
+DMA10_DMA26_DriverIRQHandler
+                        0x6001'0d9f      0x32  Code  Gb  fsl_edma.o [7]
+DMA10_DMA26_IRQHandler  0x6001'6251            Code  Wk  startup_MIMXRT1024.o [22]
+DMA11_DMA27_DriverIRQHandler
+                        0x6001'0dd1      0x32  Code  Gb  fsl_edma.o [7]
+DMA11_DMA27_IRQHandler  0x6001'6259            Code  Wk  startup_MIMXRT1024.o [22]
+DMA12_DMA28_DriverIRQHandler
+                        0x6001'0e03      0x32  Code  Gb  fsl_edma.o [7]
+DMA12_DMA28_IRQHandler  0x6001'6261            Code  Wk  startup_MIMXRT1024.o [22]
+DMA13_DMA29_DriverIRQHandler
+                        0x6001'0e35      0x32  Code  Gb  fsl_edma.o [7]
+DMA13_DMA29_IRQHandler  0x6001'6269            Code  Wk  startup_MIMXRT1024.o [22]
+DMA14_DMA30_DriverIRQHandler
+                        0x6001'0e67      0x32  Code  Gb  fsl_edma.o [7]
+DMA14_DMA30_IRQHandler  0x6001'6271            Code  Wk  startup_MIMXRT1024.o [22]
+DMA15_DMA31_DriverIRQHandler
+                        0x6001'0e99      0x32  Code  Gb  fsl_edma.o [7]
+DMA15_DMA31_IRQHandler  0x6001'6279            Code  Wk  startup_MIMXRT1024.o [22]
+DMA1_DMA17_DriverIRQHandler
+                        0x6001'0bdd      0x32  Code  Gb  fsl_edma.o [7]
+DMA1_DMA17_IRQHandler   0x6001'6209            Code  Wk  startup_MIMXRT1024.o [22]
+DMA2_DMA18_DriverIRQHandler
+                        0x6001'0c0f      0x32  Code  Gb  fsl_edma.o [7]
+DMA2_DMA18_IRQHandler   0x6001'6211            Code  Wk  startup_MIMXRT1024.o [22]
+DMA3_DMA19_DriverIRQHandler
+                        0x6001'0c41      0x32  Code  Gb  fsl_edma.o [7]
+DMA3_DMA19_IRQHandler   0x6001'6219            Code  Wk  startup_MIMXRT1024.o [22]
+DMA4_DMA20_DriverIRQHandler
+                        0x6001'0c73      0x32  Code  Gb  fsl_edma.o [7]
+DMA4_DMA20_IRQHandler   0x6001'6221            Code  Wk  startup_MIMXRT1024.o [22]
+DMA5_DMA21_DriverIRQHandler
+                        0x6001'0ca5      0x32  Code  Gb  fsl_edma.o [7]
+DMA5_DMA21_IRQHandler   0x6001'6229            Code  Wk  startup_MIMXRT1024.o [22]
+DMA6_DMA22_DriverIRQHandler
+                        0x6001'0cd7      0x32  Code  Gb  fsl_edma.o [7]
+DMA6_DMA22_IRQHandler   0x6001'6231            Code  Wk  startup_MIMXRT1024.o [22]
+DMA7_DMA23_DriverIRQHandler
+                        0x6001'0d09      0x32  Code  Gb  fsl_edma.o [7]
+DMA7_DMA23_IRQHandler   0x6001'6239            Code  Wk  startup_MIMXRT1024.o [22]
+DMA8_DMA24_DriverIRQHandler
+                        0x6001'0d3b      0x32  Code  Gb  fsl_edma.o [7]
+DMA8_DMA24_IRQHandler   0x6001'6241            Code  Wk  startup_MIMXRT1024.o [22]
+DMA9_DMA25_DriverIRQHandler
+                        0x6001'0d6d      0x32  Code  Gb  fsl_edma.o [7]
+DMA9_DMA25_IRQHandler   0x6001'6249            Code  Wk  startup_MIMXRT1024.o [22]
+DMA_ERROR_DriverIRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+DMA_ERROR_IRQHandler    0x6001'6281            Code  Wk  startup_MIMXRT1024.o [22]
+DbgConsole_Init         0x6000'626f      0xd2  Code  Gb  fsl_debug_console.o [23]
+DbgConsole_PrintCallback
+                        0x6000'6231      0x3e  Code  Lc  fsl_debug_console.o [23]
+DbgConsole_Printf       0x6000'6341      0x40  Code  Gb  fsl_debug_console.o [23]
+DbgConsole_SendDataReliable
+                        0x6000'61fd      0x34  Code  Gb  fsl_debug_console.o [23]
+DebugMon_Handler        0x6000'93c3            Code  Wk  startup_MIMXRT1024.o [22]
+DefaultISR              0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+DisableGlobalIRQ        0x6000'99c1       0x8  Code  Lc  fsl_component_serial_manager.o [24]
+DisableIRQ              0x6000'cd1f      0x1e  Code  Lc  cs5530.o [13]
+EDMA_GetChannelStatusFlags
+                        0x6001'0a69      0x46  Code  Gb  fsl_edma.o [7]
+EDMA_HandleIRQ          0x6001'0ab9      0xec  Code  Gb  fsl_edma.o [7]
+ENC1_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ENC2_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ENET_1588_Timer_DriverIRQHandler
+                        0x6001'1c1d       0xe  Code  Gb  fsl_enet.o [7]
+ENET_1588_Timer_IRQHandler
+                        0x6001'6369            Code  Wk  startup_MIMXRT1024.o [22]
+ENET_CommonFrame0IRQHandler
+                        0x6001'1b5d      0x8c  Code  Gb  fsl_enet.o [7]
+ENET_DriverIRQHandler   0x6001'1c0f       0xe  Code  Gb  fsl_enet.o [7]
+ENET_GetInstance        0x6001'1b1d      0x32  Code  Gb  fsl_enet.o [7]
+ENET_IRQHandler         0x6001'6361            Code  Wk  startup_MIMXRT1024.o [22]
+ENET_Ptp1588IRQHandler  0x6001'1be9      0x26  Code  Gb  fsl_enet.o [7]
+EWM_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+EXCEPTION_ConfigurableFaultStatusRegisterPrint
+                        0x6001'05dd     0x10c  Code  Lc  fsl_component_exception_handling.o [4]
+EXCEPTION_CopyToStack   0x6001'08d1      0x5e  Code  Lc  fsl_component_exception_handling.o [4]
+EXCEPTION_DataPrint     0x6001'0957      0x12  Code  Gb  fsl_component_exception_handling.o [4]
+EXCEPTION_HardFaultRegisterPrint
+                        0x6001'0717      0x64  Code  Lc  fsl_component_exception_handling.o [4]
+EXCEPTION_HardFaultStatusRegisterPrint
+                        0x6001'06e9      0x2e  Code  Lc  fsl_component_exception_handling.o [4]
+EXCEPTION_StackFramePrint
+                        0x6001'077b     0x154  Code  Lc  fsl_component_exception_handling.o [4]
+EnableGlobalIRQ         0x6000'99c9       0x6  Code  Lc  fsl_component_serial_manager.o [24]
+EnableIRQ               0x6000'bf43      0x1e  Code  Lc  averyWeigher.o [21]
+EnableIRQ               0x6000'cd01      0x1e  Code  Lc  cs5530.o [13]
+EnableIRQ               0x6000'53ab      0x1e  Code  Lc  fsl_lpspi.o [7]
+EnableIRQ               0x6000'2447      0x1e  Code  Lc  printEngine.o [12]
+EnableIRQ               0x6000'b3b3      0x1e  Code  Lc  w25x10cl.o [13]
+FLEXIO1_DriverIRQHandler
+                        0x6001'2a1d       0x8  Code  Gb  fsl_flexio.o [7]
+FLEXIO1_IRQHandler      0x6001'6341            Code  Wk  startup_MIMXRT1024.o [22]
+FLEXIO_CommonIRQHandler
+                        0x6001'29cd      0x42  Code  Lc  fsl_flexio.o [7]
+FLEXRAM_IRQHandler      0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+FLEXSPI_DriverIRQHandler
+                        0x6001'56d1      0x14  Code  Gb  fsl_flexspi.o [7]
+FLEXSPI_IRQHandler      0x6001'6349            Code  Wk  startup_MIMXRT1024.o [22]
+GPC_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_Combined_0_15_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_Combined_16_31_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT0_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT1_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT2_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT3_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT4_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT5_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT6_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO1_INT7_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO2_Combined_0_15_IRQHandler
+                        0x6000'cf03      0x8a  Code  Gb  cs5530.o [13]
+GPIO2_Combined_16_31_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO3_Combined_0_15_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO3_Combined_16_31_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO5_Combined_0_15_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO5_Combined_16_31_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPIO_GetInstance        0x6000'4a01      0x2c  Code  Lc  fsl_gpio.o [7]
+GPIO_PinInit            0x6000'4a2d      0x62  Code  Gb  fsl_gpio.o [7]
+GPIO_PinRead            0x6000'cd5f      0x26  Code  Lc  cs5530.o [13]
+GPIO_PinRead            0x6000'25c1      0x26  Code  Lc  printEngine.o [12]
+GPIO_PinSetInterruptConfig
+                        0x6000'4ae9      0x8c  Code  Gb  fsl_gpio.o [7]
+GPIO_PinWrite           0x6000'4a8f      0x38  Code  Gb  fsl_gpio.o [7]
+GPIO_PortClearInterruptFlags
+                        0x6000'cd95       0x4  Code  Lc  cs5530.o [13]
+GPIO_PortEnableInterrupts
+                        0x6000'bf89       0x8  Code  Lc  averyWeigher.o [21]
+GPIO_PortEnableInterrupts
+                        0x6000'cd8d       0x8  Code  Lc  cs5530.o [13]
+GPIO_ReadPinInput       0x6000'cd85       0x8  Code  Lc  cs5530.o [13]
+GPIO_ReadPinInput       0x6000'25e7       0x8  Code  Lc  printEngine.o [12]
+GPIO_SetPinInterruptConfig
+                        0x6000'49f7       0xa  Code  Lc  fsl_gpio.o [7]
+GPIO_WritePinOutput     0x6000'7945       0xa  Code  Lc  dvr8818.o [12]
+GPIO_WritePinOutput     0x6000'25b7       0xa  Code  Lc  printEngine.o [12]
+GPIO_WritePinOutput     0x6000'b1d5       0xa  Code  Lc  systemTimer.o [13]
+GPIO_WritePinOutput     0x6000'b3f3       0xa  Code  Lc  w25x10cl.o [13]
+GPR_IRQ_IRQHandler      0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+GPT1_IRQHandler         0x6000'2dad      0xea  Code  Gb  printEngine.o [12]
+GPT2_IRQHandler         0x6000'2ab5     0x144  Code  Gb  printEngine.o [12]
+GPT2_IRQHandler::pwmSltTime_
+                           0x2'aa0a       0x1  Data  Lc  printEngine.o [12]
+GPT2_IRQHandler::pwmStartTime_
+                           0x2'aa09       0x1  Data  Lc  printEngine.o [12]
+GPT_ClearStatusFlags    0x6000'2571       0x6  Code  Lc  printEngine.o [12]
+GPT_Deinit              0x6000'6539      0x16  Code  Gb  fsl_gpt.o [7]
+GPT_DisableInterrupts   0x6000'255d       0xa  Code  Lc  printEngine.o [12]
+GPT_EnableInterrupts    0x6000'2555       0x8  Code  Lc  printEngine.o [12]
+GPT_GetDefaultConfig    0x6000'654f      0x44  Code  Gb  fsl_gpt.o [7]
+GPT_GetInstance         0x6000'6473      0x2c  Code  Lc  fsl_gpt.o [7]
+GPT_GetStatusFlags      0x6000'2567       0xa  Code  Lc  printEngine.o [12]
+GPT_Init                0x6000'649f      0x9a  Code  Gb  fsl_gpt.o [7]
+GPT_SetClockDivider     0x6000'644b      0x28  Code  Lc  fsl_gpt.o [7]
+GPT_SetClockDivider     0x6000'249d      0x2c  Code  Lc  printEngine.o [12]
+GPT_SetClockSource      0x6000'6417      0x34  Code  Lc  fsl_gpt.o [7]
+GPT_SetOutputCompareValue
+                        0x6000'2527      0x2e  Code  Lc  printEngine.o [12]
+GPT_SetOutputOperationMode
+                        0x6000'24dd      0x4a  Code  Lc  printEngine.o [12]
+GPT_SoftwareReset       0x6000'6407      0x10  Code  Lc  fsl_gpt.o [7]
+GPT_SoftwareReset       0x6000'248d      0x10  Code  Lc  printEngine.o [12]
+GPT_StartTimer          0x6000'24c9       0xa  Code  Lc  printEngine.o [12]
+GPT_StopTimer           0x6000'24d3       0xa  Code  Lc  printEngine.o [12]
+HAL_UartGetStatus       0x6000'da85      0x10  Code  Lc  fsl_adapter_lpuart.o [25]
+HAL_UartInit            0x6000'db21      0x78  Code  Gb  fsl_adapter_lpuart.o [25]
+HAL_UartInitCommon      0x6000'da95      0x8c  Code  Lc  fsl_adapter_lpuart.o [25]
+HAL_UartSendBlocking    0x6000'db99      0x58  Code  Gb  fsl_adapter_lpuart.o [25]
+HardFault_Handler       0x6001'0937       0x8  Code  Gb  fsl_component_exception_handling.o [4]
+IOMUXC_EnableMode       0x6000'f93b      0x1c  Code  Lc  clock_config.o [3]
+IOMUXC_MQSConfig        0x6000'f997      0x20  Code  Lc  clock_config.o [3]
+IOMUXC_SetPinConfig     0x6000'bf7d       0xc  Code  Lc  averyWeigher.o [21]
+IOMUXC_SetPinConfig     0x6000'cdb5       0xc  Code  Lc  cs5530.o [13]
+IOMUXC_SetPinConfig     0x6000'e67f       0xc  Code  Lc  pin_mux.o [3]
+IOMUXC_SetPinConfig     0x6000'2481       0xc  Code  Lc  printEngine.o [12]
+IOMUXC_SetPinMux        0x6000'bf61      0x1c  Code  Lc  averyWeigher.o [21]
+IOMUXC_SetPinMux        0x6000'cd99      0x1c  Code  Lc  cs5530.o [13]
+IOMUXC_SetPinMux        0x6000'e663      0x1c  Code  Lc  pin_mux.o [3]
+IOMUXC_SetPinMux        0x6000'2465      0x1c  Code  Lc  printEngine.o [12]
+IOMUXC_SetSaiMClkClockSource
+                        0x6000'f957      0x40  Code  Lc  clock_config.o [3]
+KPP_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+LPI2C1_DriverIRQHandler
+                        0x6001'1c8f       0xc  Code  Gb  fsl_lpi2c.o [7]
+LPI2C1_IRQHandler       0x6001'62c9            Code  Wk  startup_MIMXRT1024.o [22]
+LPI2C2_DriverIRQHandler
+                        0x6001'1c9b       0xc  Code  Gb  fsl_lpi2c.o [7]
+LPI2C2_IRQHandler       0x6001'62d1            Code  Wk  startup_MIMXRT1024.o [22]
+LPI2C3_DriverIRQHandler
+                        0x6001'1ca7       0xc  Code  Gb  fsl_lpi2c.o [7]
+LPI2C3_IRQHandler       0x6001'62d9            Code  Wk  startup_MIMXRT1024.o [22]
+LPI2C4_DriverIRQHandler
+                        0x6001'1cb3       0xc  Code  Gb  fsl_lpi2c.o [7]
+LPI2C4_IRQHandler       0x6001'62e1            Code  Wk  startup_MIMXRT1024.o [22]
+LPI2C_CommonIRQHandler  0x6001'1c4d      0x42  Code  Lc  fsl_lpi2c.o [7]
+LPSPI1_DriverIRQHandler
+                        0x6000'612d      0x24  Code  Gb  fsl_lpspi.o [7]
+LPSPI1_IRQHandler       0x6001'62e9            Code  Wk  startup_MIMXRT1024.o [22]
+LPSPI2_DriverIRQHandler
+                        0x6000'6151      0x24  Code  Gb  fsl_lpspi.o [7]
+LPSPI2_IRQHandler       0x6001'62f1            Code  Wk  startup_MIMXRT1024.o [22]
+LPSPI3_DriverIRQHandler
+                        0x6000'6175      0x24  Code  Gb  fsl_lpspi.o [7]
+LPSPI3_IRQHandler       0x6001'62f9            Code  Wk  startup_MIMXRT1024.o [22]
+LPSPI4_DriverIRQHandler
+                        0x6000'6199      0x24  Code  Gb  fsl_lpspi.o [7]
+LPSPI4_IRQHandler       0x6001'6301            Code  Wk  startup_MIMXRT1024.o [22]
+LPSPI_CheckTransferArgument
+                        0x6000'58b5      0xc4  Code  Gb  fsl_lpspi.o [7]
+LPSPI_ClearStatusFlags  0x6000'5405       0x4  Code  Lc  fsl_lpspi.o [7]
+LPSPI_CombineWriteData  0x6000'5f31      0xe2  Code  Lc  fsl_lpspi.o [7]
+LPSPI_CommonIRQHandler  0x6000'6101      0x2c  Code  Lc  fsl_lpspi.o [7]
+LPSPI_DisableInterrupts
+                        0x6000'5411       0xa  Code  Lc  fsl_lpspi.o [7]
+LPSPI_Enable            0x6000'cd3d      0x1a  Code  Lc  cs5530.o [13]
+LPSPI_Enable            0x6000'53c9      0x1a  Code  Lc  fsl_lpspi.o [7]
+LPSPI_Enable            0x6000'b3d1      0x1a  Code  Lc  w25x10cl.o [13]
+LPSPI_EnableInterrupts  0x6000'cd57       0x8  Code  Lc  cs5530.o [13]
+LPSPI_EnableInterrupts  0x6000'5409       0x8  Code  Lc  fsl_lpspi.o [7]
+LPSPI_EnableInterrupts  0x6000'b3eb       0x8  Code  Lc  w25x10cl.o [13]
+LPSPI_FlushFifo         0x6000'542f      0x12  Code  Lc  fsl_lpspi.o [7]
+LPSPI_GetInstance       0x6000'5459      0x42  Code  Gb  fsl_lpspi.o [7]
+LPSPI_GetRxFifoCount    0x6000'53fd       0x8  Code  Lc  fsl_lpspi.o [7]
+LPSPI_GetRxFifoSize     0x6000'53e7       0xe  Code  Lc  fsl_lpspi.o [7]
+LPSPI_GetStatusFlags    0x6000'53e3       0x4  Code  Lc  fsl_lpspi.o [7]
+LPSPI_GetTxFifoCount    0x6000'53f5       0x8  Code  Lc  fsl_lpspi.o [7]
+LPSPI_IsMaster          0x6000'5427       0x8  Code  Lc  fsl_lpspi.o [7]
+LPSPI_MasterGetDefaultConfig
+                        0x6000'5593      0x7a  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterInit        0x6000'54ab      0xe8  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterSetBaudRate
+                        0x6000'5647      0xa4  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterSetDelayScaler
+                        0x6000'56eb      0x44  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterSetDelayTimes
+                        0x6000'572f     0x136  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterTransferAbort
+                        0x6000'5d45      0x3e  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterTransferComplete
+                        0x6000'5cf1      0x42  Code  Lc  fsl_lpspi.o [7]
+LPSPI_MasterTransferCreateHandle
+                        0x6000'5865      0x50  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterTransferFillUpTxFifo
+                        0x6000'5c15      0xd6  Code  Lc  fsl_lpspi.o [7]
+LPSPI_MasterTransferHandleIRQ
+                        0x6000'5d91     0x184  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterTransferNonBlocking
+                        0x6000'5989     0x280  Code  Gb  fsl_lpspi.o [7]
+LPSPI_MasterUserCallback
+                        0x6000'2681      0x3c  Code  Gb  printEngine.o [12]
+LPSPI_ReadData          0x6000'5455       0x4  Code  Lc  fsl_lpspi.o [7]
+LPSPI_Reset             0x6000'560d      0x16  Code  Gb  fsl_lpspi.o [7]
+LPSPI_SeparateReadData  0x6000'6013      0xda  Code  Lc  fsl_lpspi.o [7]
+LPSPI_SetDummyData      0x6000'549b      0x10  Code  Gb  fsl_lpspi.o [7]
+LPSPI_SetFifoWatermarks
+                        0x6000'5441      0x10  Code  Lc  fsl_lpspi.o [7]
+LPSPI_SetMasterSlaveMode
+                        0x6000'541b       0xc  Code  Lc  fsl_lpspi.o [7]
+LPSPI_SetOnePcsPolarity
+                        0x6000'5623      0x24  Code  Lc  fsl_lpspi.o [7]
+LPSPI_TxFifoReady       0x6000'60ed      0x14  Code  Lc  fsl_lpspi.o [7]
+LPSPI_WriteData         0x6000'5451       0x4  Code  Lc  fsl_lpspi.o [7]
+LPUART1_DriverIRQHandler
+                        0x6000'e385      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART1_IRQHandler      0x6001'6289            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART2_DriverIRQHandler
+                        0x6000'e399      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART2_IRQHandler      0x6001'6291            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART3_DriverIRQHandler
+                        0x6000'e3b1      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART3_IRQHandler      0x6001'6299            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART4_DriverIRQHandler
+                        0x6000'e3c5      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART4_IRQHandler      0x6001'62a1            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART5_DriverIRQHandler
+                        0x6000'e3d9      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART5_IRQHandler      0x6001'62a9            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART6_DriverIRQHandler
+                        0x6000'e3ed      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART6_IRQHandler      0x6001'62b1            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART7_DriverIRQHandler
+                        0x6000'e401      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART7_IRQHandler      0x6001'62b9            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART8_DriverIRQHandler
+                        0x6000'e415      0x14  Code  Gb  fsl_lpuart.o [7]
+LPUART8_IRQHandler      0x6001'62c1            Code  Wk  startup_MIMXRT1024.o [22]
+LPUART_GetDefaultConfig
+                        0x6000'e2a9      0x68  Code  Gb  fsl_lpuart.o [7]
+LPUART_GetInstance      0x6000'e03f      0x32  Code  Gb  fsl_lpuart.o [7]
+LPUART_Init             0x6000'e071     0x238  Code  Gb  fsl_lpuart.o [7]
+LPUART_SoftwareReset    0x6000'e02d      0x12  Code  Lc  fsl_lpuart.o [7]
+LPUART_WriteBlocking    0x6000'e311      0x3e  Code  Gb  fsl_lpuart.o [7]
+MemManage_Handler       0x6001'093f       0x8  Code  Gb  fsl_component_exception_handling.o [4]
+NMI_Handler             0x6001'092f       0x8  Code  Gb  fsl_component_exception_handling.o [4]
+PIT_ClearStatusFlags    0x6000'812b       0xc  Code  Lc  sensors.o [13]
+PIT_IRQHandler          0x6000'8137      0x14  Code  Gb  sensors.o [13]
+PMU_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM1_0_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM1_1_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM1_2_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM1_3_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM1_FAULT_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM2_0_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM2_1_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM2_2_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM2_3_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM2_FAULT_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+PWM_Deinit              0x6000'6823      0x2e  Code  Gb  fsl_pwm.o [7]
+PWM_GetComplementU16    0x6000'6635       0xa  Code  Lc  fsl_pwm.o [7]
+PWM_GetDefaultConfig    0x6000'6851      0x50  Code  Gb  fsl_pwm.o [7]
+PWM_GetInstance         0x6000'663f      0x32  Code  Lc  fsl_pwm.o [7]
+PWM_Init                0x6000'6671     0x1b2  Code  Gb  fsl_pwm.o [7]
+PWM_SetPwmLdok          0x6000'258b      0x2c  Code  Lc  printEngine.o [12]
+PWM_SetupPwm            0x6000'68a5     0x52c  Code  Gb  fsl_pwm.o [7]
+PWM_StartTimer          0x6000'2577      0x14  Code  Lc  printEngine.o [12]
+PendSV_Handler          0x6000'cbe5            Code  Gb  portasm.o [9]
+PrintCheckFlags         0x6000'9dd3      0x56  Code  Lc  fsl_str.o [23]
+PrintGetLengthFlag      0x6000'9e29      0x46  Code  Lc  fsl_str.o [23]
+PrintGetPrecision       0x6000'9b49      0x74  Code  Lc  fsl_str.o [23]
+PrintGetRadixFromobpu   0x6000'9e6f      0x28  Code  Lc  fsl_str.o [23]
+PrintGetSignChar        0x6000'9ac5      0x30  Code  Lc  fsl_str.o [23]
+PrintGetWidth           0x6000'9af5      0x54  Code  Lc  fsl_str.o [23]
+PrintIsdi               0x6000'9be3      0x16  Code  Lc  fsl_str.o [23]
+PrintIsfF               0x6000'9da7      0x16  Code  Lc  fsl_str.o [23]
+PrintIsobpu             0x6000'9bbd      0x26  Code  Lc  fsl_str.o [23]
+PrintIsxX               0x6000'9dbd      0x16  Code  Lc  fsl_str.o [23]
+PrintOutputdifFobpu     0x6000'9bf9      0xae  Code  Lc  fsl_str.o [23]
+PrintOutputxX           0x6000'9ca7     0x100  Code  Lc  fsl_str.o [23]
+RTWDOG_IRQHandler       0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+RW$$Base                        0x0             --   Gb  - Linker created -
+RW$$Limit                      0x20             --   Gb  - Linker created -
+Region$$Table$$Base     0x6001'5718             --   Gb  - Linker created -
+Region$$Table$$Limit    0x6001'573c             --   Gb  - Linker created -
+Reserved102_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved103_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved107_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved115_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved123_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved128_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved143_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved144_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved147_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved148_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved151_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved152_IRQHandler  0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved56_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved58_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved59_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved60_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved68_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved70_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved78_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved82_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved86_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reserved87_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+Reset_Handler           0x6001'5465            Code  Wk  startup_MIMXRT1024.o [22]
+SAI1_DriverIRQHandler   0x6001'19ff      0x52  Code  Gb  fsl_sai.o [7]
+SAI1_IRQHandler         0x6001'6319            Code  Wk  startup_MIMXRT1024.o [22]
+SAI2_DriverIRQHandler   0x6001'1a51      0x52  Code  Gb  fsl_sai.o [7]
+SAI2_IRQHandler         0x6001'6321            Code  Wk  startup_MIMXRT1024.o [22]
+SAI3_RX_DriverIRQHandler
+                        0x6001'1acd      0x2a  Code  Gb  fsl_sai.o [7]
+SAI3_RX_IRQHandler      0x6001'6329            Code  Wk  startup_MIMXRT1024.o [22]
+SAI3_TX_DriverIRQHandler
+                        0x6001'1aa3      0x2a  Code  Gb  fsl_sai.o [7]
+SAI3_TX_IRQHandler      0x6001'6331            Code  Wk  startup_MIMXRT1024.o [22]
+SAI_RxGetEnabledInterruptStatus
+                        0x6001'19d5      0x16  Code  Lc  fsl_sai.o [7]
+SAI_TxGetEnabledInterruptStatus
+                        0x6001'19eb      0x14  Code  Lc  fsl_sai.o [7]
+SEMC_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+SNVS_HP_WRAPPER_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+SNVS_HP_WRAPPER_TZ_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+SNVS_LP_HP_WRAPPER_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+SPDIF_DriverIRQHandler  0x6001'3119      0x36  Code  Gb  fsl_spdif.o [7]
+SPDIF_IRQHandler        0x6001'6339            Code  Wk  startup_MIMXRT1024.o [22]
+SRC_IRQHandler          0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+SVC_Handler             0x6000'cc3d            Code  Gb  portasm.o [9]
+SerialManager_Init      0x6000'9a0f      0x3c  Code  Gb  fsl_component_serial_manager.o [24]
+SerialManager_OpenReadHandle
+                        0x6000'9a79      0x42  Code  Gb  fsl_component_serial_manager.o [24]
+SerialManager_OpenWriteHandle
+                        0x6000'9a4b      0x2e  Code  Gb  fsl_component_serial_manager.o [24]
+SerialManager_StartWriting
+                        0x6000'99cf      0x1e  Code  Lc  fsl_component_serial_manager.o [24]
+SerialManager_Write     0x6000'99ed      0x22  Code  Lc  fsl_component_serial_manager.o [24]
+SerialManager_WriteBlocking
+                        0x6000'9abb       0x8  Code  Gb  fsl_component_serial_manager.o [24]
+Serial_UartInit         0x6000'c503      0x1c  Code  Gb  fsl_component_serial_port_uart.o [24]
+Serial_UartWrite        0x6000'c51f      0x14  Code  Gb  fsl_component_serial_port_uart.o [24]
+StrFormatPrintf         0x6000'a119     0x33c  Code  Gb  fsl_str.o [23]
+SysTick_Handler         0x6000'a90d      0x28  Code  Gb  port.o [9]
+SystemCoreClock                 0x8       0x4  Data  Gb  system_MIMXRT1024.o [2]
+SystemInit              0x6001'1879     0x11a  Code  Gb  system_MIMXRT1024.o [2]
+SystemInitHook          0x6001'19d1       0x2  Code  Wk  system_MIMXRT1024.o [2]
+TEMP_LOW_HIGH_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+TEMP_PANIC_IRQHandler   0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+TMR1_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+TMR2_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+TRNG_IRQHandler         0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+USB_DeviceControl       0x6001'0491      0x24  Code  Lc  usb_device_dci.o [17]
+USB_DeviceEhciCancelControlPipe
+                        0x6000'ff75     0x110  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciFillSetupBuffer
+                        0x6000'fef9      0x7c  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciInterruptPortChange
+                        0x6001'038f      0x52  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciInterruptReset
+                        0x6001'03e1      0x64  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciInterruptSof
+                        0x6001'0445       0x2  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciInterruptTokenDone
+                        0x6001'0085     0x30a  Code  Lc  usb_device_ehci.o [18]
+USB_DeviceEhciIsrFunction
+                        0x6001'0447      0x48  Code  Gb  usb_device_ehci.o [18]
+USB_DeviceNotification  0x6001'0513      0xa4  Code  Lc  usb_device_dci.o [17]
+USB_DeviceNotificationTrigger
+                        0x6001'05b7      0x26  Code  Gb  usb_device_dci.o [17]
+USB_DeviceResetNotification
+                        0x6001'04b5      0x5e  Code  Lc  usb_device_dci.o [17]
+USB_OTG1_IRQHandler     0x6001'5fbd       0xc  Code  Gb  usbTask.o [14]
+USB_PHY_IRQHandler      0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+USDHC1_DriverIRQHandler
+                        0x6001'3c49      0x16  Code  Gb  fsl_usdhc.o [7]
+USDHC1_IRQHandler       0x6001'6351            Code  Wk  startup_MIMXRT1024.o [22]
+USDHC2_DriverIRQHandler
+                        0x6001'3c61      0x16  Code  Gb  fsl_usdhc.o [7]
+USDHC2_IRQHandler       0x6001'6359            Code  Wk  startup_MIMXRT1024.o [22]
+UsageFault_Handler      0x6001'094f       0x8  Code  Gb  fsl_component_exception_handling.o [4]
+WDOG1_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+WDOG2_IRQHandler        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+XBAR1_IRQ_0_1_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+XBAR1_IRQ_2_3_IRQHandler
+                        0x6001'6385            Code  Wk  startup_MIMXRT1024.o [22]
+ZI$$Base                        0x0             --   Gb  - Linker created -
+ZI$$Limit                  0x2'aa1c             --   Gb  - Linker created -
+_DATAERRORSIZE                 0x10       0x4  Data  Lc  w25x10cl.o [13]
+_PROCERROR                     0x18       0x4  Data  Lc  w25x10cl.o [13]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'f7d1      0x16  Code  Lc  clock_config.o [3]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'4995      0x16  Code  Lc  fsl_gpio.o [7]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'6399      0x16  Code  Lc  fsl_gpt.o [7]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'5343      0x16  Code  Lc  fsl_lpspi.o [7]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'dfc5      0x16  Code  Lc  fsl_lpuart.o [7]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'65c1      0x16  Code  Lc  fsl_pwm.o [7]
+_SDK_AtomicLocalClearAndSet4Byte
+                        0x6000'e545      0x16  Code  Lc  pin_mux.o [3]
+_WAITERROR                     0x14       0x4  Data  Lc  w25x10cl.o [13]
+__NCACHE_REGION_SIZE {Abs}
+                                0x0            Data  Gb  <internal module>
+__NCACHE_REGION_START {Abs}
+                        0x2020'0000            Data  Gb  <internal module>
+__NVIC_DisableIRQ       0x6000'ccb3      0x26  Code  Lc  cs5530.o [13]
+__NVIC_EnableIRQ        0x6000'befd      0x1e  Code  Lc  averyWeigher.o [21]
+__NVIC_EnableIRQ        0x6000'cc95      0x1e  Code  Lc  cs5530.o [13]
+__NVIC_EnableIRQ        0x6000'5325      0x1e  Code  Lc  fsl_lpspi.o [7]
+__NVIC_EnableIRQ        0x6000'2401      0x1e  Code  Lc  printEngine.o [12]
+__NVIC_EnableIRQ        0x6000'b2c9      0x1e  Code  Lc  w25x10cl.o [13]
+__NVIC_SetPriority      0x6000'bf1b      0x28  Code  Lc  averyWeigher.o [21]
+__NVIC_SetPriority      0x6000'ccd9      0x28  Code  Lc  cs5530.o [13]
+__NVIC_SetPriority      0x6000'241f      0x28  Code  Lc  printEngine.o [12]
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                                0x0            Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x6000'2000            Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}    0x6000'2000            Data  Gb  <internal module>
+__Vectors               0x6000'2000             --   Gb  startup_MIMXRT1024.o [22]
+__Vectors_End           0x6000'2400            Data  Gb  startup_MIMXRT1024.o [22]
+__Vectors_Size {Abs}          0x400             --   Gb  startup_MIMXRT1024.o [22]
+__aeabi_assert          0x6000'497d      0x18  Code  Gb  fsl_assert.o [23]
+__aeabi_d2lz            0x6000'cabd            Code  Gb  DblToS64.o [28]
+__aeabi_l2d             0x6000'cb25            Code  Gb  S64ToDbl.o [28]
+__aeabi_ldiv0           0x6000'c501            Code  Gb  I64DivZer.o [29]
+__aeabi_ldivmod         0x6000'974d            Code  Gb  I64DivMod.o [29]
+__aeabi_memcpy          0x6000'8035            Code  Gb  ABImemcpy.o [29]
+__aeabi_memcpy4         0x6000'8055            Code  Gb  ABImemcpy.o [29]
+__aeabi_memcpy8         0x6000'8055            Code  Gb  ABImemcpy.o [29]
+__aeabi_memset          0x6000'96c9            Code  Gb  ABImemset.o [29]
+__aeabi_uldivmod        0x6000'9791            Code  Gb  I64DivMod.o [29]
+__cmain                 0x6001'58bd            Code  Gb  cmain.o [29]
+__exit                  0x6001'5909      0x14  Code  Gb  exit.o [30]
+__iar_Errno                0x1'e22c       0x4  Tls   Gb  errno.o [27]
+__iar_Exp64             0x6000'dcb1     0x208  Code  Gb  iar_Exp64.o [28]
+__iar_Memset            0x6000'96c9            Code  Gb  ABImemset.o [29]
+__iar_Memset_word       0x6000'96d1            Code  Gb  ABImemset.o [29]
+__iar_copy_init3        0x6000'80db      0x2a  Code  Gb  copy_init3.o [29]
+__iar_data_init3        0x6001'548d      0x28  Code  Gb  data_init.o [29]
+__iar_errno_set_EDOM    0x6000'dc11       0xe  Code  Gb  errno.o [27]
+__iar_errno_set_ERANGE  0x6000'dc1f       0xc  Code  Gb  errno.o [27]
+__iar_frexp             0x6000'dc4d            Code  Gb  frexp.o [28]
+__iar_frexp64           0x6000'dc35            Code  Gb  frexp.o [28]
+__iar_frexpl            0x6000'dc4d            Code  Gb  frexp.o [28]
+__iar_init_vfp          0x6001'56f5            Code  Gb  fpinit_M.o [28]
+__iar_ldexp64           0x6000'e455            Code  Gb  ldexp.o [28]
+__iar_modf              0x6000'c545            Code  Gb  modf.o [28]
+__iar_modf64            0x6000'c535            Code  Gb  modf.o [28]
+__iar_modfl             0x6000'c545            Code  Gb  modf.o [28]
+__iar_nothread_read_tp  0x6000'e451       0x4  Code  Gb  tp_nothreads.o [27]
+__iar_pow64             0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+__iar_pow_medium        0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+__iar_pow_medium64      0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+__iar_pow_mediuml       0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+__iar_program_start     0x6001'5a35            Code  Gb  cstartup_M.o [29]
+__iar_scalbln64         0x6000'e455            Code  Gb  ldexp.o [28]
+__iar_scalbn64          0x6000'e455            Code  Gb  ldexp.o [28]
+__iar_zero_init3        0x6001'41fd      0x38  Code  Gb  zero_init3.o [29]
+__low_level_init        0x6001'58db       0x4  Code  Gb  low_level_init.o [27]
+__vector_table          0x6000'2000            Data  Gb  startup_MIMXRT1024.o [22]
+__vector_table_0x1c     0x6000'201c            Data  Gb  startup_MIMXRT1024.o [22]
+_call_main              0x6001'58c9            Code  Gb  cmain.o [29]
+_exit                   0x6001'58fd            Code  Gb  cexit.o [29]
+abs                     0x6000'96bf       0x8  Code  Wk  abs.o [27]
+adQHandle_                      0xc       0x4  Data  Lc  averyWeigher.o [21]
+adcManager                 0x1'de38      0x24  Data  Gb  sensors.o [13]
+adjacencyTimes             0x1'dd44      0x10  Data  Gb  printHead.o [12]
+applyVerticalOffset_       0x2'aa04       0x1  Data  Lc  printEngine.o [12]
+auditMgr                   0x1'e288      0x28  Data  Lc  cat3Audit.o [21]
+auditTrailRollOver      0x6000'd57d      0xb8  Code  Lc  cat3Audit.o [21]
+averyWeigherTask        0x6000'c209      0x4e  Code  Lc  averyWeigher.o [21]
+bank0_                     0x2'aa07       0x1  Data  Gb  printEngine.o [12]
+bank1_                     0x2'aa08       0x1  Data  Gb  printEngine.o [12]
+boxcarFilterInit        0x6000'da39      0x1c  Code  Gb  boxcarFilter.o [21]
+boxcarFilterReset       0x6000'da55      0x10  Code  Gb  boxcarFilter.o [21]
+boxcarFilterSetMaxLength
+                        0x6000'da65      0x20  Code  Gb  boxcarFilter.o [21]
+buildReleaseRstTransfer
+                        0x6000'ce87      0x1a  Code  Gb  cs5530.o [13]
+buildResetTransfer      0x6000'ce6d      0x1a  Code  Gb  cs5530.o [13]
+buildSyncTransfer       0x6000'ce51      0x1c  Code  Gb  cs5530.o [13]
+calEvent                      0x6d0      0x2c  Data  Lc  cat3Audit.o [21]
+calculateChecksum       0x6000'd9ad      0x1e  Code  Gb  serialFlash.o [13]
+calibrateOp             0x6000'4819       0x2  Code  Gb  printEngine.o [12]
+clearBurnSequence       0x6000'29d5       0xa  Code  Gb  printEngine.o [12]
+clearCmdQueue           0x6000'48ad       0xe  Code  Gb  printEngine.o [12]
+clearDataReady          0x6000'b837       0xa  Code  Gb  w25x10cl.o [13]
+clearGhostMCntr         0x6000'824b       0xa  Code  Gb  sensors.o [13]
+clearSectorLock         0x6000'b8d1      0x72  Code  Gb  w25x10cl.o [13]
+clrMotorStopOnEdge      0x6000'8341       0x8  Code  Gb  sensors.o [13]
+clrMotorStopOnGap       0x6000'8331       0x8  Code  Gb  sensors.o [13]
+cmdTable                     0x1744    0x32a0  Data  Gb  commandTable.o [12]
+compareStatus           0x6000'2ead      0x6a  Code  Gb  printEngine.o [12]
+config                         0x58      0x38  Data  Lc  averyWeigher.o [21]
+configEvent                   0x6fc      0x20  Data  Lc  cat3Audit.o [21]
+configValid_               0x2'a9fd       0x1  Data  Lc  averyWeigher.o [21]
+config_                      0x4c24      0x18  Data  Gb  globalPrinterTask.o [12]
+continuousStock_           0x2'aa05       0x1  Data  Gb  printEngine.o [12]
+counterOp               0x6000'4799      0x80  Code  Gb  printEngine.o [12]
+counts_                        0x90       0xc  Data  Lc  averyWeigher.o [21]
+createAveryWeigherTask  0x6000'bf91     0x134  Code  Gb  averyWeigher.o [21]
+createHeartBeatTimer    0x6000'b1ff      0x3e  Code  Gb  systemTimer.o [13]
+cs5530ADQueue_               0x49e8       0x4  Data  Gb  cs5530.o [13]
+cs5530Mgr_                   0x49ec      0x40  Data  Gb  cs5530.o [13]
+cs5530ReadCfgResiter    0x6000'd005      0x54  Code  Lc  cs5530.o [13]
+cs5530ReadConversion    0x6000'cf91      0x50  Code  Lc  cs5530.o [13]
+cs5530Reset             0x6000'd1bd      0x20  Code  Lc  cs5530.o [13]
+cs5530SpiCallBack       0x6000'd241      0x12  Code  Gb  cs5530.o [13]
+cs5530SpiHandle_             0x4a2c      0x38  Data  Gb  cs5530.o [13]
+cs5530SyncSerialPort    0x6000'd19d      0x20  Code  Lc  cs5530.o [13]
+currentLineTimes           0x1'dd54      0x10  Data  Gb  printHead.o [12]
+currentStatus              0x1'dd10      0x10  Data  Gb  printEngine.o [12]
+currentWeigher_                0x18      0x18  Data  Gb  averyWeigher.o [21]
+cutOp                   0x6000'4859      0x54  Code  Gb  printEngine.o [12]
+cutterMgr_                 0x1'e230      0x58  Data  Lc  averyCutter.o [12]
+delay                   0x6000'2fad      0x18  Code  Gb  printEngine.o [12]
+delay_uS                0x6000'84dd      0x1e  Code  Gb  threadManager.o [13]
+deviceHwM               0x6000'96c6       0x1  Data  Gb  vendor.o [13]
+deviceHwm               0x6000'96c7       0x1  Data  Gb  vendor.o [13]
+disableOp               0x6000'481b      0x3a  Code  Gb  printEngine.o [12]
+enetPllConfig_BOARD_BootClockRUN
+                        0x6001'61a8       0x8  Data  Gb  clock_config.o [3]
+engine                     0x1'dc60      0x54  Data  Gb  printEngine.o [12]
+env_                       0x2'aa14       0x1  Data  Lc  printHead.o [12]
+erasePage               0x6000'b713      0x86  Code  Gb  w25x10cl.o [13]
+eraseSector             0x6000'b799      0x94  Code  Gb  w25x10cl.o [13]
+errorState_                0x2'a9fc       0x1  Data  Lc  averyWeigher.o [21]
+exit                    0x6001'58f7       0x4  Code  Gb  exit.o [27]
+filteredReadings              0x638      0x98  Data  Gb  averyWeigher.o [21]
+filteredReadingsInit       0x2'a9fe       0x1  Data  Gb  averyWeigher.o [21]
+findEmptyRcd            0x6000'd703      0x44  Code  Gb  cat3Audit.o [21]
+frexp                   0x6000'dc35            Code  Gb  frexp.o [28]
+frexpl                  0x6000'dc35            Code  Gb  frexp.o [28]
+g_exceptionStackStruct       0x4a70       0x4  Data  Lc  fsl_component_exception_handling.o [4]
+g_lpspiDummyData             0x4bac       0x8  Data  Gb  fsl_lpspi.o [7]
+g_rtcXtalFreq                0x4a6c       0x4  Data  Gb  fsl_clock.o [7]
+g_serialHandle               0x4a94       0x4  Data  Gb  fsl_debug_console.o [23]
+g_xtalFreq                   0x4a68       0x4  Data  Gb  fsl_clock.o [7]
+getAuditStartAddress    0x6000'd755       0x4  Code  Gb  cat3Audit.o [21]
+getCharFromLong         0x6000'7fe7      0x44  Code  Gb  translator.o [13]
+getCharFromShort        0x6000'7fbd      0x2a  Code  Gb  translator.o [13]
+getCurrentPrintDataLine
+                        0x6000'88b5      0x20  Code  Gb  printHead.o [12]
+getDotWearHandle        0x6000'6e05       0x6  Code  Gb  dotWearTask.o [12]
+getGhostMCntr           0x6000'8243       0x8  Code  Gb  sensors.o [13]
+getHardwareIDMajor      0x6000'da17       0x6  Code  Gb  vendor.o [13]
+getHardwareIDMinor      0x6000'da1d       0x6  Code  Gb  vendor.o [13]
+getHeadStyleSize        0x6000'859f      0x26  Code  Gb  printHead.o [12]
+getHeadTemp             0x6000'8537      0x68  Code  Gb  printHead.o [12]
+getHeadTemperature      0x6000'8255       0xa  Code  Gb  sensors.o [13]
+getI2CMsgQueueHandle    0x6000'b02d       0x6  Code  Gb  queueManager.o [13]
+getImageBuffer          0x6000'84fd       0x6  Code  Gb  printHead.o [12]
+getIndirectData         0x6000'95e9       0x2  Code  Gb  commandTable.o [12]
+getLabelTaken           0x6000'8207       0xa  Code  Gb  sensors.o [13]
+getMediaCounts          0x6000'8321       0x8  Code  Gb  sensors.o [13]
+getMyModel              0x6000'8493       0x4  Code  Gb  threadManager.o [13]
+getNumberOfRecords      0x6000'd82f      0x4c  Code  Gb  cat3Audit.o [21]
+getOpData               0x6000'96a5      0x1a  Code  Gb  commandTable.o [12]
+getPageBaseAddress      0x6000'd821       0xe  Code  Lc  cat3Audit.o [21]
+getPageChecksums        0x6000'd969      0x28  Code  Gb  serialFlash.o [13]
+getPageNumber           0x6000'd789      0x98  Code  Lc  cat3Audit.o [21]
+getPreviousPrintDataLine
+                        0x6000'88d5      0x30  Code  Gb  printHead.o [12]
+getPrintEngine          0x6000'2d9d       0x4  Code  Gb  printEngine.o [12]
+getProductId            0x6000'd9cd      0x38  Code  Gb  vendor.o [13]
+getReadData             0x6000'b517      0x2c  Code  Gb  w25x10cl.o [13]
+getSectorBaseAddress    0x6000'b943      0x2e  Code  Gb  w25x10cl.o [13]
+getSectorNumber         0x6000'd759      0x30  Code  Lc  cat3Audit.o [21]
+getSerialConfiguration  0x6000'c0c5      0xe2  Code  Lc  averyWeigher.o [21]
+getSerialWgConfiguration
+                        0x6000'd8a9      0x2c  Code  Gb  serialFlash.o [13]
+getSltSizingTime        0x6000'8503      0x34  Code  Gb  printHead.o [12]
+getWeigherCntsQueueHandle
+                        0x6000'b01f       0x6  Code  Gb  queueManager.o [13]
+getWeigherCntsQueueLength
+                        0x6000'b025       0x4  Code  Gb  queueManager.o [13]
+getWeigherI2cQueueLength
+                        0x6000'b029       0x4  Code  Gb  queueManager.o [13]
+getWeigherMsgQueueLength
+                        0x6000'b01b       0x4  Code  Gb  queueManager.o [13]
+getWeigherQueueHandle   0x6000'b015       0x6  Code  Gb  queueManager.o [13]
+getWeigherSoftwareIDEng
+                        0x6000'da11       0x6  Code  Gb  vendor.o [13]
+getWeigherSoftwareIDMajor
+                        0x6000'da05       0x6  Code  Gb  vendor.o [13]
+getWeigherSoftwareIDMinor
+                        0x6000'da0b       0x6  Code  Gb  vendor.o [13]
+ghostM_                    0x1'de5c       0x4  Data  Lc  sensors.o [13]
+halfStepMotor           0x6000'2c3b       0x8  Code  Gb  printEngine.o [12]
+handleBulkErase         0x6000'bdd3      0x12  Code  Lc  w25x10cl.o [13]
+handleEnableStatusReg   0x6000'bdb1       0x8  Code  Lc  w25x10cl.o [13]
+handlePageProgram       0x6000'bdb9       0x8  Code  Lc  w25x10cl.o [13]
+handleReadData          0x6000'bd11      0x36  Code  Lc  w25x10cl.o [13]
+handleReadDataHS        0x6000'bd47      0x32  Code  Lc  w25x10cl.o [13]
+handleReadId            0x6000'bcb9      0x2a  Code  Lc  w25x10cl.o [13]
+handleReadSignature     0x6000'bd79       0x2  Code  Lc  w25x10cl.o [13]
+handleReadStatus        0x6000'bce3      0x2e  Code  Lc  w25x10cl.o [13]
+handleReleasePowerDwn   0x6000'bde5      0x2c  Code  Lc  w25x10cl.o [13]
+handleSectorErase       0x6000'bdc1      0x12  Code  Lc  w25x10cl.o [13]
+handleTransfer          0x6000'd1dd      0x62  Code  Lc  cs5530.o [13]
+handleWeigherMsg        0x6000'c257     0x15c  Code  Lc  averyWeigher.o [21]
+handleWriteDisable      0x6000'bd8d      0x12  Code  Lc  w25x10cl.o [13]
+handleWriteEnable       0x6000'bd7b      0x12  Code  Lc  w25x10cl.o [13]
+handleWriteStatus       0x6000'bd9f      0x12  Code  Lc  w25x10cl.o [13]
+headStyle                  0x1'dd40       0x4  Data  Gb  printHead.o [12]
+headTempData               0x1'de28      0x10  Data  Gb  sensors.o [13]
+heartBeatCallback       0x6000'b269      0x3a  Code  Gb  systemTimer.o [13]
+heartBeat_                 0x1'de60       0x4  Data  Lc  systemTimer.o [13]
+history                 0x6000'8867      0x4e  Code  Gb  printHead.o [12]
+history1Line               0x1'dd7c      0x38  Data  Gb  printHead.o [12]
+historyAdjacency        0x6000'3471      0x1a  Code  Gb  printEngine.o [12]
+historyEnabled_                0x1d       0x1  Data  Gb  printEngine.o [12]
+i2cQHandle_                    0x10       0x4  Data  Lc  averyWeigher.o [21]
+idleOp                  0x6000'2fc5     0x122  Code  Gb  printEngine.o [12]
+imageBuffer                0x1'e2b0    0xc748  Data  Gb  printHead.o [12]
+initCalibrationSwitch   0x6000'c1a7      0x62  Code  Lc  averyWeigher.o [21]
+initSpiInterface        0x6000'd059     0x142  Code  Lc  cs5530.o [13]
+initTimers              0x6000'b1df      0x20  Code  Gb  systemTimer.o [13]
+initializeAuditMGR      0x6000'd315     0x18a  Code  Gb  cat3Audit.o [21]
+initializeCmdSequence   0x6000'93c5      0x9c  Code  Gb  commandTable.o [12]
+initializeCs5530        0x6000'cdc1      0x90  Code  Gb  cs5530.o [13]
+initializeEvents        0x6000'd52f      0x32  Code  Gb  cat3Audit.o [21]
+initializeFilter        0x6000'c3b3      0x3e  Code  Lc  averyWeigher.o [21]
+initializePrintEngineTimer
+                        0x6000'2d0b      0x48  Code  Gb  printEngine.o [12]
+initializePrintHeadSPI  0x6000'25ef      0x90  Code  Gb  printEngine.o [12]
+initializeQueueManager  0x6000'b033     0x144  Code  Gb  queueManager.o [13]
+initializeSerialFlash   0x6000'b3fd      0x7c  Code  Gb  w25x10cl.o [13]
+interruptLevel_                 0x4       0x4  Data  Lc  printEngine.o [12]
+intializeFlashInterface
+                        0x6000'bc3b      0x7e  Code  Lc  w25x10cl.o [13]
+isCurrentLine           0x6000'29c3      0x12  Code  Gb  printEngine.o [12]
+isCutterInterlockClosed
+                        0x6000'9731      0x16  Code  Gb  averyCutter.o [12]
+isInRange               0x6000'd747       0xe  Code  Gb  cat3Audit.o [21]
+isInterfaceInitialized  0x6000'b479      0x16  Code  Gb  w25x10cl.o [13]
+isResetValid            0x6000'cfe1      0x22  Code  Lc  cs5530.o [13]
+isSectorLocked          0x6000'b841      0x90  Code  Gb  w25x10cl.o [13]
+jumpToOperation         0x6000'955d      0x8c  Code  Gb  commandTable.o [12]
+kjt56CurrentLine750     0x6001'5efc      0x10  Data  Gb  printHead.o [12]
+rohm80mmCurrentLine     0x6001'5f3c      0x10  Data  Gb  printHead.o [12]
+kjt56CurrentLine850     0x6001'5f7c      0x10  Data  Gb  printHead.o [12]
+kjt56History750         0x6001'5eec      0x10  Data  Gb  printHead.o [12]
+rohm80mmHistory         0x6001'5f2c      0x10  Data  Gb  printHead.o [12]
+kjt56History850         0x6001'5f6c      0x10  Data  Gb  printHead.o [12]
+kjt56PwmDuty750         0x6001'5f1c      0x10  Data  Gb  printHead.o [12]
+rohm80mmPwmDuty         0x6001'5f5c      0x10  Data  Gb  printHead.o [12]
+kjt56PwmDuty850         0x6001'5f9c      0x10  Data  Gb  printHead.o [12]
+kjt56PwmStart750        0x6001'5f0c      0x10  Data  Gb  printHead.o [12]
+rohm80mmPwmStart        0x6001'5f4c      0x10  Data  Gb  printHead.o [12]
+kjt56PwmStart850        0x6001'5f8c      0x10  Data  Gb  printHead.o [12]
+rohm80mmSLTTimes           0x6001'5d74      0x14  Data  Gb  printHead.o [12]
+label0                     0x1'dcec       0x8  Data  Gb  printEngine.o [12]
+label1                     0x1'dcf4       0x8  Data  Gb  printEngine.o [12]
+label2                     0x1'dcfc       0x8  Data  Gb  printEngine.o [12]
+labelAlignment             0x1'dd30       0x4  Data  Gb  printEngine.o [12]
+ldexp                   0x6000'e455            Code  Gb  ldexp.o [28]
+ldexpl                  0x6000'e455            Code  Gb  ldexp.o [28]
+lineTimerBurn           0x6000'2a9b      0x1a  Code  Gb  printEngine.o [12]
+lineTimerSLT            0x6000'27eb      0xc8  Code  Gb  printEngine.o [12]
+lineTimerStrobe         0x6000'29df      0xbc  Code  Gb  printEngine.o [12]
+lnbias                  0x6001'0f58     0x420  Data  Lc  pow64.o [28]
+loadHistory             0x6000'28b3      0x7c  Code  Gb  printEngine.o [12]
+loadPrintLine           0x6000'292f      0x94  Code  Gb  printEngine.o [12]
+lpspi1Callback          0x6000'bea1      0x1e  Code  Gb  w25x10cl.o [13]
+m_boot_hdr_conf_start {Abs}
+                        0x6000'0000            Data  Gb  <internal module>
+main                    0x6001'58df      0x18  Code  Gb  globalScale.o [11]
+mode_                          0x1e       0x1  Data  Lc  sensors.o [13]
+modf                    0x6000'c535            Code  Gb  modf.o [28]
+modfl                   0x6000'c535            Code  Gb  modf.o [28]
+motorStep               0x6000'2c43      0x78  Code  Gb  printEngine.o [12]
+motorStepFast           0x6000'2cbb      0x50  Code  Gb  printEngine.o [12]
+motorStepFast::evenSteps_
+                           0x2'aa0b       0x1  Data  Lc  printEngine.o [12]
+motorStopEdge_             0x2'aa17       0x1  Data  Lc  sensors.o [13]
+motorStopGap_              0x2'aa16       0x1  Data  Lc  sensors.o [13]
+pCRQueue_                  0x1'de1c       0x4  Data  Lc  queueManager.o [13]
+pCmdList_                    0x49e4       0x4  Data  Lc  commandTable.o [12]
+pCmdQHandler_              0x1'dd0c       0x4  Data  Lc  printEngine.o [12]
+pCurrentLabel              0x1'dd04       0x4  Data  Gb  printEngine.o [12]
+pCutDoneSemaphore               0x0       0x4  Data  Gb  averyCutter.o [12]
+pCutSemaphore              0x1'dd08       0x4  Data  Lc  printEngine.o [12]
+pDotQueue_                 0x1'de14       0x4  Data  Lc  queueManager.o [13]
+pHandle_                        0x4       0x4  Data  Lc  averyWeigher.o [21]
+pHandle_                     0x4a64       0x4  Data  Lc  dotWearTask.o [12]
+pI2CQueue_                 0x1'de10       0x4  Data  Lc  queueManager.o [13]
+pIPrQueue_                 0x1'de20       0x4  Data  Lc  queueManager.o [13]
+pMsgQHandle_                    0x8       0x4  Data  Lc  averyWeigher.o [21]
+pPrCmdQueue_               0x1'de04       0x4  Data  Lc  queueManager.o [13]
+pPrQueue_                  0x1'de00       0x4  Data  Lc  queueManager.o [13]
+pQUSBSendHandle_           0x1'dfac       0x4  Data  Lc  translator.o [13]
+pThreadManagerQueue_       0x1'de0c       0x4  Data  Lc  queueManager.o [13]
+pUSBInQueue_               0x1'ddf4       0x4  Data  Lc  queueManager.o [13]
+pUSBOutQueue_              0x1'ddf8       0x4  Data  Lc  queueManager.o [13]
+pUTQueue_                  0x1'de18       0x4  Data  Lc  queueManager.o [13]
+pWadQueue_                 0x1'de08       0x4  Data  Lc  queueManager.o [13]
+pWgQueue_                  0x1'ddfc       0x4  Data  Lc  queueManager.o [13]
+page                          0x71c    0x1004  Data  Gb  cat3Audit.o [21]
+pcInterruptPriorityRegisters
+                        0x6001'6378       0x4  Data  Lc  port.o [9]
+pow                     0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+powerOffMotors          0x6000'7985      0x1a  Code  Gb  dvr8818.o [12]
+powerOffStepper         0x6000'2c15       0x8  Code  Gb  printEngine.o [12]
+powerOnMotors           0x6000'796b      0x1a  Code  Gb  dvr8818.o [12]
+powerOnStepper          0x6000'2c1d       0x8  Code  Gb  printEngine.o [12]
+powl                    0x6000'c5d5     0x468  Code  Gb  pow64.o [28]
+prevContrast_              0x2'a9f8       0x2  Data  Lc  printHead.o [12]
+prevStatus                 0x1'dd20      0x10  Data  Gb  printEngine.o [12]
+prevWeigher_                   0x30      0x18  Data  Gb  averyWeigher.o [21]
+printDotWearOp          0x6000'33f5      0x78  Code  Gb  printEngine.o [12]
+printHeadPowerOff       0x6000'2c05      0x10  Code  Gb  printEngine.o [12]
+printOp                 0x6000'3109     0x2ec  Code  Gb  printEngine.o [12]
+printOp::onceGap_          0x2'aa0c       0x1  Data  Lc  printEngine.o [12]
+printOp::onceTaken_        0x2'aa0d       0x1  Data  Lc  printEngine.o [12]
+processCommand          0x6000'bbaf      0x8c  Code  Gb  w25x10cl.o [13]
+prvAddCurrentTaskToDelayedList
+                        0x6000'7895      0x6e  Code  Lc  tasks.o [8]
+prvAddNewTaskToReadyList
+                        0x6000'6f69      0x9e  Code  Lc  tasks.o [8]
+prvCheckForValidListAndQueue
+                        0x6000'ae03      0x46  Code  Lc  timers.o [8]
+prvCheckTasksWaitingTermination
+                        0x6000'75d3      0x3c  Code  Lc  tasks.o [8]
+prvCopyDataFromQueue    0x6000'91a1      0x2a  Code  Lc  queue.o [8]
+prvCopyDataToQueue      0x6000'911b      0x86  Code  Lc  queue.o [8]
+prvDeleteTCB            0x6000'760f      0x12  Code  Lc  tasks.o [8]
+prvGetNextExpireTime    0x6000'abdb      0x26  Code  Lc  timers.o [8]
+prvHeapInit             0x6000'a615      0x5e  Code  Lc  heap_4.o [10]
+prvIdleTask             0x6000'754d      0x22  Code  Lc  tasks.o [8]
+prvInitialiseMutex      0x6000'8add      0x1e  Code  Lc  queue.o [8]
+prvInitialiseNewQueue   0x6000'8ab7      0x26  Code  Lc  queue.o [8]
+prvInitialiseNewTask    0x6000'6e85      0xe4  Code  Lc  tasks.o [8]
+prvInitialiseNewTimer   0x6000'aa2f      0x54  Code  Lc  timers.o [8]
+prvInitialiseTaskLists  0x6000'757d      0x56  Code  Lc  tasks.o [8]
+prvInsertBlockIntoFreeList
+                        0x6000'a673      0x5e  Code  Lc  heap_4.o [10]
+prvInsertTimerInActiveList
+                        0x6000'ac29      0x3e  Code  Lc  timers.o [8]
+prvIsQueueEmpty         0x6000'924f      0x1c  Code  Lc  queue.o [8]
+prvIsQueueFull          0x6000'926b      0x1e  Code  Lc  queue.o [8]
+prvNotifyQueueSetContainer
+                        0x6000'9331      0x92  Code  Lc  queue.o [8]
+prvProcessExpiredTimer  0x6000'aae7      0x6a  Code  Lc  timers.o [8]
+prvProcessReceivedCommands
+                        0x6000'ac67     0x128  Code  Lc  timers.o [8]
+prvProcessTimerOrBlockTask
+                        0x6000'ab65      0x76  Code  Lc  timers.o [8]
+prvResetNextTaskUnblockTime
+                        0x6000'7621      0x22  Code  Lc  tasks.o [8]
+prvSampleTimeNow        0x6000'ac01      0x28  Code  Lc  timers.o [8]
+prvSampleTimeNow::xLastTime
+                           0x1'dfa8       0x4  Data  Lc  timers.o [8]
+prvSwitchTimerLists     0x6000'ad8f      0x74  Code  Lc  timers.o [8]
+prvTaskExitError        0x6000'a7b5      0x2a  Code  Lc  port.o [9]
+prvTimerTask            0x6000'ab51      0x14  Code  Lc  timers.o [8]
+prvUnlockQueue          0x6000'91cb      0x84  Code  Lc  queue.o [8]
+pvPortMalloc            0x6000'a45d     0x138  Code  Gb  heap_4.o [10]
+pvTimerGetTimerID       0x6000'ae49      0x26  Code  Gb  timers.o [8]
+pwmDutyCycle               0x1'dd74       0x8  Data  Gb  printHead.o [12]
+pwmTimes                   0x1'dd64      0x10  Data  Gb  printHead.o [12]
+pxCurrentTCB               0x1'de6c       0x4  Data  Gb  tasks.o [8]
+pxCurrentTimerList         0x1'df98       0x4  Data  Lc  timers.o [8]
+pxDelayedTaskList          0x1'defc       0x4  Data  Lc  tasks.o [8]
+pxEnd                      0x1'dc44       0x4  Data  Lc  heap_4.o [10]
+pxOverflowDelayedTaskList
+                           0x1'df00       0x4  Data  Lc  tasks.o [8]
+pxOverflowTimerList        0x1'df9c       0x4  Data  Lc  timers.o [8]
+pxPortInitialiseStack   0x6000'a78d      0x28  Code  Gb  port.o [9]
+pxReadyTasksLists          0x1'de70      0x64  Data  Lc  tasks.o [8]
+ram_                         0x1720      0x24  Data  Gb  commandTable.o [12]
+readAuditPage           0x6000'd6a5      0x5e  Code  Gb  cat3Audit.o [21]
+readLabelTakenSensor    0x6000'8211      0x32  Code  Gb  sensors.o [13]
+readLabelTakenSensor::previousState_
+                           0x2'aa18       0x1  Data  Lc  sensors.o [13]
+readRecord              0x6000'd561      0x1c  Code  Gb  cat3Audit.o [21]
+readSerialAuditRcd      0x6000'd635      0x3c  Code  Gb  cat3Audit.o [21]
+readSerialFlash         0x6000'b4b5      0x62  Code  Gb  w25x10cl.o [13]
+readyToNotify           0x6000'6e0b       0x6  Code  Gb  dotWearTask.o [12]
+releasePowerDwn         0x6000'b48f      0x26  Code  Gb  w25x10cl.o [13]
+resetPrintDataLine      0x6000'8905      0x32  Code  Gb  printHead.o [12]
+resetPrintEngineTimer   0x6000'2d7f      0x14  Code  Gb  printEngine.o [12]
+sTick                      0x1'de68       0x4  Data  Gb  systemTimer.o [13]
+s_EDMAHandle                 0x4a98      0x80  Data  Lc  fsl_edma.o [7]
+s_ENETHandle                 0x4b18       0x4  Data  Lc  fsl_enet.o [7]
+s_LpuartAdapterBase     0x6001'54fc      0x24  Data  Lc  fsl_adapter_lpuart.o [25]
+s_baudratePrescaler     0x6001'61d8       0x8  Data  Lc  fsl_lpspi.o [7]
+s_debugConsoleReadWaitSemaphore
+                           0x2'aa00       0x1  Data  Lc  fsl_debug_console.o [23]
+s_debugConsoleState          0x4a74      0x20  Data  Lc  fsl_debug_console.o [23]
+s_enet1588TimerIsr           0x4b2c       0x4  Data  Lc  fsl_enet.o [7]
+s_enetBases             0x6001'6370       0x4  Data  Lc  fsl_enet.o [7]
+s_enetErrIsr                 0x4b24       0x4  Data  Lc  fsl_enet.o [7]
+s_enetRxIsr                  0x4b20       0x4  Data  Lc  fsl_enet.o [7]
+s_enetTsIsr                  0x4b28       0x4  Data  Lc  fsl_enet.o [7]
+s_enetTxIsr                  0x4b1c       0x4  Data  Lc  fsl_enet.o [7]
+s_flexcanHandle              0x4b30       0xc  Data  Lc  fsl_flexcan.o [7]
+s_flexcanIsr                 0x4b3c       0x4  Data  Lc  fsl_flexcan.o [7]
+s_flexioHandle               0x4b40       0x8  Data  Lc  fsl_flexio.o [7]
+s_flexioIsr                  0x4b50       0x8  Data  Lc  fsl_flexio.o [7]
+s_flexioType                 0x4b48       0x8  Data  Lc  fsl_flexio.o [7]
+s_flexspiHandle              0x4b58       0x4  Data  Lc  fsl_flexspi.o [7]
+s_flexspiIsr                 0x4b5c       0x4  Data  Lc  fsl_flexspi.o [7]
+s_gpioBases             0x6001'5af8      0x18  Data  Lc  fsl_gpio.o [7]
+s_gpioClock             0x6001'60bc       0xc  Data  Lc  fsl_gpio.o [7]
+s_gptBases              0x6001'60d4       0xc  Data  Lc  fsl_gpt.o [7]
+s_gptClocks             0x6001'61d0       0x8  Data  Lc  fsl_gpt.o [7]
+s_lpi2cMasterHandle          0x4b64      0x14  Data  Gb  fsl_lpi2c.o [7]
+s_lpi2cMasterIsr             0x4b60       0x4  Data  Gb  fsl_lpi2c.o [7]
+s_lpi2cSlaveHandle           0x4b7c      0x14  Data  Lc  fsl_lpi2c.o [7]
+s_lpi2cSlaveIsr              0x4b78       0x4  Data  Lc  fsl_lpi2c.o [7]
+s_lpspiBases            0x6001'5d10      0x14  Data  Lc  fsl_lpspi.o [7]
+s_lpspiClocks           0x6001'6110       0xc  Data  Lc  fsl_lpspi.o [7]
+s_lpspiHandle                0x4b90      0x14  Data  Lc  fsl_lpspi.o [7]
+s_lpspiIRQ              0x6001'6104       0xc  Data  Lc  fsl_lpspi.o [7]
+s_lpspiMasterIsr             0x4ba4       0x4  Data  Lc  fsl_lpspi.o [7]
+s_lpspiSlaveIsr              0x4ba8       0x4  Data  Lc  fsl_lpspi.o [7]
+s_lpuartBases           0x6001'55f8      0x24  Data  Lc  fsl_lpuart.o [7]
+s_lpuartClock           0x6001'5d24      0x14  Data  Lc  fsl_lpuart.o [7]
+s_lpuartHandle               0x4bb4      0x24  Data  Gb  fsl_lpuart.o [7]
+s_lpuartIsr                  0x4bd8       0x4  Data  Gb  fsl_lpuart.o [7]
+s_pwmBases              0x6001'6164       0xc  Data  Lc  fsl_pwm.o [7]
+s_pwmClocks             0x6001'5b88      0x18  Data  Lc  fsl_pwm.o [7]
+s_saiHandle                  0x4bdc      0x20  Data  Lc  fsl_sai.o [7]
+s_saiRxIsr                   0x4c00       0x4  Data  Lc  fsl_sai.o [7]
+s_saiTxIsr                   0x4bfc       0x4  Data  Lc  fsl_sai.o [7]
+s_spdifHandle                0x4c04       0x8  Data  Lc  fsl_spdif.o [7]
+s_spdifRxIsr                 0x4c10       0x4  Data  Lc  fsl_spdif.o [7]
+s_spdifTxIsr                 0x4c0c       0x4  Data  Lc  fsl_spdif.o [7]
+s_usdhcBase             0x6001'6170       0xc  Data  Lc  fsl_usdhc.o [7]
+s_usdhcHandle                0x4c14       0xc  Data  Lc  fsl_usdhc.o [7]
+s_usdhcIsr                   0x4c20       0x4  Data  Lc  fsl_usdhc.o [7]
+scaTimer_                  0x1'de24       0x4  Data  Gb  sca3300.o [13]
+scaWaitCallBack         0x6000'df29      0x2c  Code  Gb  sca3300.o [13]
+scalbln                 0x6000'e455            Code  Gb  ldexp.o [28]
+scalblnl                0x6000'e455            Code  Gb  ldexp.o [28]
+scalbn                  0x6000'e455            Code  Gb  ldexp.o [28]
+scalbnl                 0x6000'e455            Code  Gb  ldexp.o [28]
+scb_data_text           0x6001'16d8     0x1a0  Data  Lc  fsl_component_exception_handling.o [4]
+sendPrStatus            0x6000'79f9      0xb4  Code  Gb  translator.o [13]
+sendWgConfig            0x6000'7b5d     0x338  Code  Gb  translator.o [13]
+sendWgVersion           0x6000'7e95     0x10c  Code  Gb  translator.o [13]
+sendWgWakeup            0x6000'7aad      0xac  Code  Gb  translator.o [13]
+serialFlash                0x1'dfd0     0x224  Data  Lc  w25x10cl.o [13]
+setConversionInterrupt  0x6000'cea1      0x62  Code  Lc  cs5530.o [13]
+setDataReady            0x6000'b82d       0xa  Code  Gb  w25x10cl.o [13]
+setHeadTimings          0x6000'85c5     0x144  Code  Gb  printHead.o [12]
+setIndirectData         0x6000'95eb      0x9a  Code  Gb  commandTable.o [12]
+setLineTimerIntLevel    0x6000'26dd      0x18  Code  Gb  printEngine.o [12]
+setMainMotorDirection   0x6000'794f       0xe  Code  Gb  dvr8818.o [12]
+setMotorStopOnEdge      0x6000'8339       0x8  Code  Gb  sensors.o [13]
+setMotorStopOnGap       0x6000'8329       0x8  Code  Gb  sensors.o [13]
+setNextOperation        0x6000'947f      0x6c  Code  Gb  commandTable.o [12]
+setOperation            0x6000'9461      0x1e  Code  Gb  commandTable.o [12]
+setPageChecksums        0x6000'd991      0x1c  Code  Gb  serialFlash.o [13]
+setPrintEngineTimer     0x6000'2d69      0x16  Code  Gb  printEngine.o [12]
+setPrintEngineTimerSlt  0x6000'2d53      0x16  Code  Gb  printEngine.o [12]
+setSerialWgConfiguration
+                        0x6000'd8d5      0x1c  Code  Gb  serialFlash.o [13]
+setSerialWgDfltConfig   0x6000'd8f1      0x68  Code  Gb  serialFlash.o [13]
+setStepDirection        0x6000'79d3      0x22  Code  Lc  dvr8818.o [12]
+setStepperDirection     0x6000'2c25      0x16  Code  Gb  printEngine.o [12]
+setTakeUpMotorDirection
+                        0x6000'795d       0xe  Code  Gb  dvr8818.o [12]
+setWeigherVersion       0x6000'c4d1      0x2e  Code  Lc  averyWeigher.o [21]
+setupTransfer           0x6000'b971     0x23e  Code  Gb  w25x10cl.o [13]
+shutdownPrintEngine     0x6000'2bf9       0xc  Code  Gb  printEngine.o [12]
+skipMissingLabel_          0x2'aa03       0x1  Data  Lc  printEngine.o [12]
+skipNextOperation       0x6000'94eb      0x72  Code  Gb  commandTable.o [12]
+spi1Handle_                0x1'e1f4      0x38  Data  Lc  w25x10cl.o [13]
+spiDmaTransferComplete     0x2'aa06       0x1  Data  Gb  printEngine.o [12]
+spiHeadMasterHandle        0x1'dcb4      0x38  Data  Gb  printEngine.o [12]
+startHeartBeatTimer     0x6000'b23d      0x2c  Code  Gb  systemTimer.o [13]
+startLineTimer          0x6000'26f5      0xb2  Code  Gb  printEngine.o [12]
+startPrintEngine        0x6000'26bd      0x20  Code  Gb  printEngine.o [12]
+startSystemThreads      0x6000'8485       0xe  Code  Lc  threadManager.o [13]
+startWaitTimer          0x6000'df55      0x56  Code  Gb  sca3300.o [13]
+statusOp                0x6000'4741      0x4c  Code  Gb  printEngine.o [12]
+stepCounterEnabled_        0x2'aa02       0x1  Data  Lc  printEngine.o [12]
+stepEdgeOp              0x6000'3e09     0x23e  Code  Gb  printEngine.o [12]
+stepGapOp               0x6000'3b75     0x26a  Code  Gb  printEngine.o [12]
+stepGapOp::index_          0x1'dd34       0x4  Data  Lc  printEngine.o [12]
+stepMotors              0x6000'799f      0x34  Code  Gb  dvr8818.o [12]
+stepOp                  0x6000'3491     0x35a  Code  Gb  printEngine.o [12]
+stepUntilOp             0x6000'37f1     0x352  Code  Gb  printEngine.o [12]
+stopLineTimer           0x6000'27a7      0x44  Code  Gb  printEngine.o [12]
+strlen                  0x6000'cb79            Code  Gb  strlen.o [29]
+style_                     0x2'a9fb       0x1  Data  Lc  averyWeigher.o [21]
+suspend_                   0x2'a9fa       0x1  Data  Lc  averyWeigher.o [21]
+sysPllConfig_BOARD_BootClockRUN
+                        0x6001'5c48      0x14  Data  Gb  clock_config.o [3]
+systemStartup           0x6000'837d     0x102  Code  Gb  threadManager.o [13]
+testCondition           0x6000'2f17      0x44  Code  Gb  printEngine.o [12]
+testForLabelOp          0x6000'4209     0x164  Code  Gb  printEngine.o [12]
+testForLabelOp::labelFound_
+                           0x2'aa0f       0x1  Data  Lc  printEngine.o [12]
+testForSyncOp           0x6000'405d     0x1a6  Code  Gb  printEngine.o [12]
+testForSyncOp::index_      0x1'dd38       0x4  Data  Lc  printEngine.o [12]
+testForSyncOp::syncFound_
+                           0x2'aa0e       0x1  Data  Lc  printEngine.o [12]
+testOp                  0x6000'467d      0xb8  Code  Gb  printEngine.o [12]
+testPrint_                 0x2'a9ff       0x1  Data  Lc  dotWearTask.o [12]
+timeOut_                   0x2'aa15       0x1  Data  Lc  sca3300.o [13]
+ucHeap                       0x4c3c  0x1'9000  Data  Lc  heap_4.o [10]
+ucMaxSysCallPriority       0x2'aa01       0x1  Data  Lc  port.o [9]
+ulMaxPRIGROUPValue         0x1'dc5c       0x4  Data  Lc  port.o [9]
+upDatePrintTimings      0x6000'8709     0x15e  Code  Gb  printHead.o [12]
+updateAuditMGR          0x6000'd49f      0x5e  Code  Lc  cat3Audit.o [21]
+usb1PllConfig_BOARD_BootClockRUN
+                        0x6000'84fa       0x2  Data  Gb  clock_config.o [3]
+usbMgr                     0x1'dfb0      0x20  Data  Gb  usbTask.o [14]
+uxCriticalNesting               0x0       0x4  Data  Lc  port.o [9]
+uxCurrentNumberOfTasks     0x1'df44       0x4  Data  Lc  tasks.o [8]
+uxDeletedTasksWaitingCleanUp
+                           0x1'df2c       0x4  Data  Lc  tasks.o [8]
+uxListRemove            0x6000'a767      0x26  Code  Gb  list.o [8]
+uxQueueMessagesWaitingFromISR
+                        0x6000'9103      0x18  Code  Gb  queue.o [8]
+uxSchedulerSuspended       0x1'df6c       0x4  Data  Lc  tasks.o [8]
+uxTaskNumber               0x1'df60       0x4  Data  Lc  tasks.o [8]
+uxTopReadyPriority         0x1'df4c       0x4  Data  Lc  tasks.o [8]
+uxTopUsedPriority               0xc       0x4  Data  Gb  tasks.o [8]
+vListInitialise         0x6000'a6f5      0x1e  Code  Gb  list.o [8]
+vListInitialiseItem     0x6000'a713       0x6  Code  Gb  list.o [8]
+vListInsert             0x6000'a731      0x36  Code  Gb  list.o [8]
+vListInsertEnd          0x6000'a719      0x18  Code  Gb  list.o [8]
+vPortEnableVFP          0x6000'cc79            Code  Gb  portasm.o [9]
+vPortEnterCritical      0x6000'a8ad      0x34  Code  Gb  port.o [9]
+vPortExitCritical       0x6000'a8e1      0x2c  Code  Gb  port.o [9]
+vPortFree               0x6000'a595      0x7a  Code  Gb  heap_4.o [10]
+vPortSetupTimerInterrupt
+                        0x6000'cbb1      0x34  Code  Wk  port.o [9]
+vPortStartFirstTask     0x6000'cc59            Code  Gb  portasm.o [9]
+vPortValidateInterruptPriority
+                        0x6000'a935      0x4a  Code  Gb  port.o [9]
+vQueueAddToRegistry     0x6000'9289      0x24  Code  Gb  queue.o [8]
+vQueueWaitForMessageRestricted
+                        0x6000'92b1      0x4a  Code  Gb  queue.o [8]
+vTaskInternalSetTimeOutState
+                        0x6000'74a1      0x12  Code  Gb  tasks.o [8]
+vTaskMissedYield        0x6000'7543       0xa  Code  Gb  tasks.o [8]
+vTaskPlaceOnEventList   0x6000'739d      0x2e  Code  Gb  tasks.o [8]
+vTaskPlaceOnEventListRestricted
+                        0x6000'73dd      0x38  Code  Gb  tasks.o [8]
+vTaskStartScheduler     0x6000'70ef      0x74  Code  Gb  tasks.o [8]
+vTaskSuspend            0x6000'7007      0xe8  Code  Gb  tasks.o [8]
+vTaskSuspendAll         0x6000'7163       0xc  Code  Gb  tasks.o [8]
+vTaskSwitchContext      0x6000'7333      0x6a  Code  Gb  tasks.o [8]
+vTimerSetTimerID        0x6000'ae6f      0x26  Code  Gb  timers.o [8]
+valueMax_                      0x9c     0x598  Data  Gb  averyWeigher.o [21]
+wQueueSet_                     0x14       0x4  Data  Lc  averyWeigher.o [21]
+waitForCompletion       0x6000'be11      0x34  Code  Lc  w25x10cl.o [13]
+waitOp                  0x6000'4371      0xa8  Code  Gb  printEngine.o [12]
+waitOp::waitCount_         0x1'dd3c       0x4  Data  Lc  printEngine.o [12]
+waitUntilOp             0x6000'4421      0x68  Code  Gb  printEngine.o [12]
+waitUntilSizingOp       0x6000'448d     0x1e8  Code  Gb  printEngine.o [12]
+waitUntilSizingOp::backUp_
+                           0x2'aa12       0x1  Data  Lc  printEngine.o [12]
+waitUntilSizingOp::interlock_
+                           0x2'aa10       0x1  Data  Lc  printEngine.o [12]
+waitUntilSizingOp::sigCutter_
+                           0x2'aa11       0x1  Data  Lc  printEngine.o [12]
+waitUntilSizingOp::waitForLabel_
+                           0x2'aa13       0x1  Data  Lc  printEngine.o [12]
+weigherPowerUp                 0x1c       0x1  Data  Gb  averyWeigher.o [21]
+weigherSwM              0x6000'972f       0x1  Data  Gb  vendor.o [13]
+weigherSwe              0x6000'972e       0x1  Data  Gb  vendor.o [13]
+weigherSwm              0x6000'9ac2       0x1  Data  Gb  vendor.o [13]
+weight_                       0x634       0x4  Data  Lc  averyWeigher.o [21]
+wgVersion_                     0x48      0x10  Data  Lc  averyWeigher.o [21]
+writeAuditMGR           0x6000'd4fd      0x32  Code  Lc  cat3Audit.o [21]
+writeCS5530             0x6000'd253      0x3e  Code  Lc  cs5530.o [13]
+writeFlashByte          0x6000'be49      0x4a  Code  Lc  w25x10cl.o [13]
+writeSerialAuditRcd     0x6000'd671      0x34  Code  Lc  cat3Audit.o [21]
+writeSerialFlash        0x6000'b543     0x11a  Code  Gb  w25x10cl.o [13]
+writeSerialFlashNE      0x6000'b65d      0xb6  Code  Gb  w25x10cl.o [13]
+xActiveTimerList1          0x1'df70      0x14  Data  Lc  timers.o [8]
+xActiveTimerList2          0x1'df84      0x14  Data  Lc  timers.o [8]
+xBlockAllocatedBit         0x1'dc58       0x4  Data  Lc  heap_4.o [10]
+xDelayedTaskList1          0x1'ded4      0x14  Data  Lc  tasks.o [8]
+xDelayedTaskList2          0x1'dee8      0x14  Data  Lc  tasks.o [8]
+xFreeBytesRemaining        0x1'dc48       0x4  Data  Lc  heap_4.o [10]
+xHeapStructSize         0x6001'6374       0x4  Data  Lc  heap_4.o [10]
+xIdleTaskHandle            0x1'df68       0x4  Data  Lc  tasks.o [8]
+xMinimumEverFreeBytesRemaining
+                           0x1'dc4c       0x4  Data  Lc  heap_4.o [10]
+xMutex_                    0x1'de64       0x4  Data  Lc  systemTimer.o [13]
+xNextTaskUnblockTime       0x1'df64       0x4  Data  Lc  tasks.o [8]
+xNumOfOverflows            0x1'df5c       0x4  Data  Lc  tasks.o [8]
+xNumberOfSuccessfulAllocations
+                           0x1'dc50       0x4  Data  Lc  heap_4.o [10]
+xNumberOfSuccessfulFrees
+                           0x1'dc54       0x4  Data  Lc  heap_4.o [10]
+xPendedTicks               0x1'df54       0x4  Data  Lc  tasks.o [8]
+xPendingReadyList          0x1'df04      0x14  Data  Lc  tasks.o [8]
+xPortGetFreeHeapSize    0x6000'a60f       0x6  Code  Gb  heap_4.o [10]
+xPortStartScheduler     0x6000'a7df      0xce  Code  Gb  port.o [9]
+xQueueAddToSet          0x6000'9307      0x2a  Code  Gb  queue.o [8]
+xQueueCreateMutex       0x6000'8afb      0x1a  Code  Gb  queue.o [8]
+xQueueCreateSet         0x6000'92fb       0xc  Code  Gb  queue.o [8]
+xQueueGenericCreate     0x6000'8a33      0x84  Code  Gb  queue.o [8]
+xQueueGenericReset      0x6000'89a1      0x92  Code  Gb  queue.o [8]
+xQueueGenericSend       0x6000'8b15     0x1c4  Code  Gb  queue.o [8]
+xQueueGenericSendFromISR
+                        0x6000'8cd9     0x11c  Code  Gb  queue.o [8]
+xQueueGiveFromISR       0x6000'8df5      0xe8  Code  Gb  queue.o [8]
+xQueueReceive           0x6000'8edd     0x15c  Code  Gb  queue.o [8]
+xQueueReceiveFromISR    0x6000'903d      0xc6  Code  Gb  queue.o [8]
+xQueueRegistry             0x1'ddb4      0x40  Data  Gb  queue.o [8]
+xSchedulerRunning          0x1'df50       0x4  Data  Lc  tasks.o [8]
+xStart                     0x1'dc3c       0x8  Data  Lc  heap_4.o [10]
+xSuspendedTaskList         0x1'df30      0x14  Data  Lc  tasks.o [8]
+xTaskCheckForTimeOut    0x6000'74bd      0x86  Code  Gb  tasks.o [8]
+xTaskCreate             0x6000'6e19      0x6c  Code  Gb  tasks.o [8]
+xTaskGenericNotifyFromISR
+                        0x6000'7729     0x15e  Code  Gb  tasks.o [8]
+xTaskGetSchedulerState  0x6000'7643      0x20  Code  Gb  tasks.o [8]
+xTaskGetTickCount       0x6000'724f       0x8  Code  Gb  tasks.o [8]
+xTaskIncrementTick      0x6000'7257      0xdc  Code  Gb  tasks.o [8]
+xTaskPriorityDisinherit
+                        0x6000'7669      0x9e  Code  Gb  tasks.o [8]
+xTaskRemoveFromEventList
+                        0x6000'741d      0x80  Code  Gb  tasks.o [8]
+xTaskResumeAll          0x6000'716f      0xe0  Code  Gb  tasks.o [8]
+xTasksWaitingTermination
+                           0x1'df18      0x14  Data  Lc  tasks.o [8]
+xTickCount                 0x1'df48       0x4  Data  Lc  tasks.o [8]
+xTimerCreate            0x6000'a9f9      0x36  Code  Gb  timers.o [8]
+xTimerCreateTimerTask   0x6000'a9b1      0x48  Code  Gb  timers.o [8]
+xTimerGenericCommand    0x6000'aa83      0x64  Code  Gb  timers.o [8]
+xTimerQueue                0x1'dfa0       0x4  Data  Lc  timers.o [8]
+xTimerTaskHandle           0x1'dfa4       0x4  Data  Lc  timers.o [8]
+xYieldPending              0x1'df58       0x4  Data  Lc  tasks.o [8]
+
+
+[1] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj
+[2] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\MIMXRT1024\device
+[3] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\board
+[4] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\exceptions
+[5] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\list
+[6] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\components\osa
+[7] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\drivers
+[8] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel
+[9] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\IAR\ARM_CM4F
+[10] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\freertos\freertos_kernel\portable\MemMang
+[11] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source
+[12] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\printer
+[13] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\system
+[14] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb
+[15] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\class
+[16] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source
+[17] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\dci
+[18] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\device\source\ehci
+[19] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\phy
+[20] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\usb\source
+[21] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\source\weigher
+[22] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\startup
+[23] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities
+[24] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common
+[25] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\utilities\common\uart
+[26] = D:\peripherals\service-scale\GlobalScaleRT1024-RockBoardBringup-IAR-9.30\Debug\Obj\xip
+[27] = dl7M_tln.a
+[28] = m7M_tlv.a
+[29] = rt7M_tl.a
+[30] = shb_l.a
+
+   64'183 bytes of readonly  code memory
+   18'641 bytes of readonly  data memory
+  175'672 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none

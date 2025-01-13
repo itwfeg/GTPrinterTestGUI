@@ -1,0 +1,58 @@
+C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\flexspi_nor_sdram_debug\BrowseInfo\source\weigher\cat3Audit.pbi: \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\source\system\cat3Audit.c \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\cat3Audit.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\wgMessages.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\stdbool.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\globalWeigher.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\valueMax.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\FreeRTOS.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\stddef.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\ysizet.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\stdint.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\FreeRTOSConfig.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\projdefs.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\portable.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\deprecated_definitions.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\portable\IAR\ARM_CM4F\portmacro.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\aarch32\intrinsics.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\aarch32\iar_intrinsics_common.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\mpu_wrappers.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\task.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\list.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\queue.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\task.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\freertos\freertos_kernel\include\timers.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\drivers\fsl_lpspi.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\drivers\fsl_common.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\assert.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\stdlib.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1_2\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\MIMXRT1024\device\fsl_device_registers.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\MIMXRT1024\device\MIMXRT1024.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\CMSIS\core_cm7.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\CMSIS\cmsis_version.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\CMSIS\cmsis_compiler.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\CMSIS\cmsis_iccarm.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\CMSIS\mpu_armv7.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\MIMXRT1024\device\system_MIMXRT1024.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\MIMXRT1024\device\MIMXRT1024_features.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\drivers\fsl_common_arm.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\drivers\fsl_clock.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\threadManager.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\w25x10cl.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\drivers\fsl_common.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\serialFlash.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\globalPrinter.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\include\weigher.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\utilities\fsl_debug_console.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\utilities\common\fsl_component_serial_manager.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\utilities\common\fsl_component_serial_port_uart.h \
+  C:\Users\chris.king\Source\GTPrinterTestGUI\GlobalScaleRT1024\utilities\common\uart\fsl_adapter_uart.h
